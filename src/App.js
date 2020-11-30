@@ -5,13 +5,17 @@ import './App.css';
 import Header from './components/molecules/Header'
 import Footer from './components/molecules/Footer'
 import Top from './components/molecules/Top'
+import Members from './components/molecules/Members'
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Header />
-        <Top />
+        <div className='main-body'>
+          <Route exact path='/' component={Top}/>
+          <Route path='/Members' component={Members}/>
+        </div>
         <Footer />
       </Router>
     </div>
