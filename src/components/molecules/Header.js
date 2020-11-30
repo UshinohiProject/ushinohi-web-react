@@ -22,7 +22,7 @@ class Header extends React.Component {
                             <Link to="/">Top</Link>
                         </li>
                         <li>
-                            <Link to="/">Members</Link>
+                            <Link to="/Members">Members</Link>
                         </li>
                         <li>
                             <Link to="/">Projects</Link>
