@@ -25,7 +25,7 @@ class Header extends React.Component {
                             <Link to="/Members">Members</Link>
                         </li>
                         <li>
-                            <Link to="/">Projects</Link>
+                            <Link to="/Projects">Projects</Link>
                         </li>
                         <li>
                             <a href="https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A">YouTube</a>

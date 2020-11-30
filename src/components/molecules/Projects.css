@@ -1,0 +1,97 @@
+.title {
+    text-align: center;
+}
+.project_main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+.project {
+	width: 100%;
+	max-width: 1200px;
+	padding: 30px 0px;
+	margin: 0 auto;
+}
+.project:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.project_content_pic {
+	float: left;
+	width: 40%;
+	margin: auto 2.5%;
+}
+.project_content {
+	float: left;
+	width: 50%;
+	margin: auto 2.5%;
+}
+.project_title {
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+}
+.project_name {
+	font-weight: bold;
+	font-size: 40px;
+	padding: 20px 10px 0px 10px;
+	margin: 0;
+}
+.project_description {
+	font-size: 20px;
+	color: grey;
+}
+.project_pic {
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+.link-projects {
+    color: rgb(116, 116, 116);
+}
+/*タブレット用*/
+@media(max-width: 800px) {
+    .project_content_pic,
+    .project_content {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+ 
+    .project_content_pic {
+        margin-bottom: 1.5rem;
+    }
+	.project_name {
+		text-align: center;
+	}
+	.menu-toggle {
+		margin: 0px 10px 0px auto;
+    }
+}
+/*スマホ用*/
+@media(max-width: 600px) {
+    html {
+        font-size: 5px;
+    }
+  
+    .project_content_pic,
+    .project_content {
+        padding: .8rem;
+    }
+  
+    .project_content_pic {
+        margin-bottom: 1rem;
+    }
+	.project_name {
+		font-size: 25px;
+		text-align: center;
+	}
+	.project_description {
+		font-size: 15px;
+	}
+	.menu-toggle {
+		margin: 0px 10px 0px auto;
+    }
+}
