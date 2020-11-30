@@ -1,0 +1,9 @@
+footer {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: rgb(31, 31, 31);
+}
+.copyright {
+    text-align: center;
+    color: #fff;
+}
