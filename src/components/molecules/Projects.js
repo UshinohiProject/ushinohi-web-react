@@ -18,7 +18,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={Shikaku}></img>
+                                <img class="project_pic" src={Shikaku} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
@@ -37,7 +37,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://www.youtube.com/watch?v=s58ha8iRuhc&list=PLD6iesuOnD4P_5LHOksX2iRmYkMzcQEwT" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={Mai}></img>
+                                <img class="project_pic" src={Mai} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
@@ -55,7 +55,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://covid19.spaceappschallenge.org/challenges/covid-challenges/purify-air-supply/teams/ushinohi-project/project" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={Covid19}></img>
+                                <img class="project_pic" src={Covid19} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
@@ -89,7 +89,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://youtu.be/AzSkr9oo_QQ" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={DayOne}></img>
+                                <img class="project_pic" src={DayOne} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
@@ -122,7 +122,7 @@ class Projects extends React.Component {
                         {/* <a href="https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB" target="_blank" rel="noopener noreferrer">
                             <img class="project_pic" src="https://ushinohi.com/wp-content/uploads/2020/05/さらちゃん.png">
                         </a> */}
-                            <img class="project_pic" src={Sara}></img>
+                            <img class="project_pic" src={Sara} alt="project's thumbnail"></img>
                         </div>
 
                         <div class="project_content">
@@ -136,7 +136,7 @@ class Projects extends React.Component {
 
                     <div class="project">
                         <div class="project_content_pic">
-                            <img class="project_pic" src={WebDesign}></img>
+                            <img class="project_pic" src={WebDesign} alt="project's thumbnail"></img>
                         </div>
 
                         <div class="project_content">
@@ -148,7 +148,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={LChika}></img>
+                                <img class="project_pic" src={LChika} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
