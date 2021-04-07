@@ -2,9 +2,9 @@ import React from 'react';
 import './Projects.css';
 
 import Shikaku from './img/projects/shikaku.jpg'
-import Mai from './img/projects/mai.jpg'
-import Covid19 from './img/projects/covid_19.jpg'
-import DayOne from './img/projects/day_one.jpg'
+import Mai from './img/projects/mai.JPG'
+import Covid19 from './img/projects/covid_19.png'
+import Hiyori from './img/projects/hiyori.png'
 import Yafumi from './img/projects/yafumi.png'
 import Sara from './img/projects/sara.jpg'
 import WebDesign from './img/projects/web_design.jpg'
@@ -19,7 +19,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={Shikaku} alt="project's thumbnail"></img>
+                                <img class="project_pic project-pic-round" src={Shikaku} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
@@ -38,7 +38,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://www.youtube.com/watch?v=s58ha8iRuhc&list=PLD6iesuOnD4P_5LHOksX2iRmYkMzcQEwT" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={Mai} alt="project's thumbnail"></img>
+                                <img class="project_pic project-pic-round" src={Mai} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
@@ -56,7 +56,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://covid19.spaceappschallenge.org/challenges/covid-challenges/purify-air-supply/teams/ushinohi-project/project" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={Covid19} alt="project's thumbnail"></img>
+                                <img class="project_pic project-pic-round" src={Covid19} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
@@ -90,7 +90,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://youtu.be/AzSkr9oo_QQ" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={DayOne} alt="project's thumbnail"></img>
+                                <img class="project_pic project-pic-round" src={Hiyori} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
@@ -147,24 +147,25 @@ class Projects extends React.Component {
 
                     <div class="project">
                         <div class="project_content_pic">
-                        {/* <a href="https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB" target="_blank" rel="noopener noreferrer">
-                            <img class="project_pic" src="https://ushinohi.com/wp-content/uploads/2020/05/さらちゃん.png">
-                        </a> */}
-                            <img class="project_pic" src={Sara} alt="project's thumbnail"></img>
+                            <a href="https://www.youtube.com/watch?v=OYtdHdW2QCU&list=PLD6iesuOnD4PeQOzbv5h4e0JavQmN9BDU&index=1" target="_blank" rel="noopener noreferrer">
+                                <img class="project_pic project-pic-round" src={Sara} alt="project's thumbnail"></img>
+                            </a>
                         </div>
 
                         <div class="project_content">
                             <p class="project_name">水中ROV製作</p>
                             <p class="project_description">&nbsp;&nbsp;2019年の夏休みに初めて丑之日プロジェクトのメンバーが日本に勢揃いした際に、48時間という制限時間を設けて製作に挑戦した、水中ROV(Remotely Operated Vehicle)。&nbsp;&nbsp;果たして時間内に完成させられたのか。</p>
-                            <p class="project_description">
-                                動画公開をお楽しみに！
-                            </p>  
+                            <p class="project_description">YouTubeは
+                                <a href="https://www.youtube.com/watch?v=OYtdHdW2QCU&list=PLD6iesuOnD4PeQOzbv5h4e0JavQmN9BDU&index=1" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    コチラ
+                                </a>
+                            </p> 
                         </div>
                     </div>
 
                     <div class="project">
                         <div class="project_content_pic">
-                            <img class="project_pic" src={WebDesign} alt="project's thumbnail"></img>
+                            <img class="project_pic project-pic-round" src={WebDesign} alt="project's thumbnail"></img>
                         </div>
 
                         <div class="project_content">
@@ -176,7 +177,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={LChika} alt="project's thumbnail"></img>
+                                <img class="project_pic project-pic-round" src={LChika} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
