@@ -4,7 +4,7 @@ import './Projects.css';
 import Shikaku from './img/projects/shikaku.jpg'
 import Mai from './img/projects/mai.jpg'
 import Covid19 from './img/projects/covid_19.jpg'
-import DayOne from './img/projects/day_one.jpg'
+import Hiyori from './img/projects/hiyori.png'
 import Yafumi from './img/projects/yafumi.png'
 import Sara from './img/projects/sara.jpg'
 import WebDesign from './img/projects/web_design.jpg'
@@ -90,7 +90,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://youtu.be/AzSkr9oo_QQ" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={DayOne} alt="project's thumbnail"></img>
+                                <img class="project_pic project-pic-round" src={Hiyori} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
