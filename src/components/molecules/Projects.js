@@ -121,7 +121,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={Yafumi} alt="project's thumbnail"></img>
+                                <img class="project_pic project-pic-round" src={Yafumi} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
