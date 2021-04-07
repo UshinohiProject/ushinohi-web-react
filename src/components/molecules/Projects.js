@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 
 import Shikaku from './img/projects/shikaku.jpg'
-import Mai from './img/projects/mai.JPG'
+import Mai from './img/projects/mai.jpg'
 import Covid19 from './img/projects/covid_19.png'
 import Hiyori from './img/projects/hiyori.png'
 import Yafumi from './img/projects/yafumi.png'
