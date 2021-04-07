@@ -5,6 +5,7 @@ import Shikaku from './img/projects/shikaku.jpg'
 import Mai from './img/projects/mai.jpg'
 import Covid19 from './img/projects/covid_19.png'
 import Hiyori from './img/projects/hiyori.png'
+import Vacume from './img/projects/vacume.png'
 import Yafumi from './img/projects/yafumi.png'
 import Sara from './img/projects/sara.jpg'
 import Emi from './img/projects/emi.png'
@@ -114,6 +115,40 @@ class Projects extends React.Component {
                                 <a href="https://youtu.be/AzSkr9oo_QQ?t=5264" target="_blank" rel="noopener noreferrer" className="link-projects">
                                     授賞式で大慌てする2人の様子
                                 </a>)。
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_content_pic">
+                            <a href="https://2020.spaceappschallenge.org/challenges/create/virtual-planetary-exploration/teams/ushinohi-project-1/project" target="_blank" rel="noopener noreferrer">
+                                <img class="project_pic project-pic-round" src={Vacume} alt="project's thumbnail"></img>
+                            </a>
+                        </div>
+
+                        <div class="project_content">
+                            <p class="project_name">Space Apps Challenge 2020</p>
+                            <p class="project_description">&nbsp;&nbsp;
+                                NASA主催の「
+                                <a href="https://2020.spaceappschallenge.org" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    Space Apps Challenge 2020
+                                </a>
+                                」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というHackathon。丑之日プロジェクトはメンバー3人全員でそれぞれカリフォルニア、東京、大阪から愛知県豊橋会場へリモート参加。
+                            </p>
+                            <p class="project_description">&nbsp;&nbsp;持続可能な宇宙開発を実現する探索モジュール「いちご大福(Manjuu)」と「すいとりくん(Mr. Vacume)」を考案してプロトタイプを作成、発表。
+                            </p>
+                            <p class="project_description">&nbsp;&nbsp;今までに参加したハッカソンでの反省を活かし、短い制限時間内で満足のいく開発と発表ができたことにより、「審査員長賞」と「ピープルズチョイス賞」をダブル受賞。代表として世界審査に進出し、Global Nomineeとなった(
+                                <a href="https://2020.spaceappschallenge.org/challenges/create/virtual-planetary-exploration/teams/ushinohi-project-1/project" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    NASAのWEBページ
+                                </a>)。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;丑之日プロジェクトが世界に進出した瞬間であった。
+                            </p>
+                            <p class="project_description">発表の様子は
+                                <a href="https://youtu.be/CBSI1xkIegY?t=586" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    コチラ
+                                </a>
                             </p>
 
                         </div>
