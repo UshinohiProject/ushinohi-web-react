@@ -165,7 +165,7 @@ class Projects extends React.Component {
 
                     <div class="project">
                         <div class="project_content_pic">
-                            <img class="project_pic" src={WebDesign} alt="project's thumbnail"></img>
+                            <img class="project_pic project-pic-round" src={WebDesign} alt="project's thumbnail"></img>
                         </div>
 
                         <div class="project_content">
