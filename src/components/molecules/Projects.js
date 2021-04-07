@@ -7,6 +7,7 @@ import Covid19 from './img/projects/covid_19.png'
 import Hiyori from './img/projects/hiyori.png'
 import Yafumi from './img/projects/yafumi.png'
 import Sara from './img/projects/sara.jpg'
+import Emi from './img/projects/emi.png'
 import WebDesign from './img/projects/web_design.jpg'
 import LChika from './img/projects/l_chika.jpg'
 
@@ -159,6 +160,25 @@ class Projects extends React.Component {
                                 <a href="https://www.youtube.com/watch?v=OYtdHdW2QCU&list=PLD6iesuOnD4PeQOzbv5h4e0JavQmN9BDU&index=1" target="_blank" rel="noopener noreferrer" className="link-projects">
                                     コチラ
                                 </a>
+                            </p> 
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project_content_pic">
+                            <a href="https://nt-kanazawa.glideapp.io/" target="_blank" rel="noopener noreferrer">
+                                <img class="project_pic project-pic-round" src={Emi} alt="project's thumbnail"></img>
+                            </a>
+                        </div>
+
+                        <div class="project_content">
+                            <p class="project_name">スマートミラー</p>
+                            <p class="project_description">&nbsp;&nbsp;笑顔度を計測し、リアルタイムでその数値を鏡面に表示してくれるスマートミラー。100%を超えると自動音声が褒めてくれます。</p>
+                            <p class="project_description">「えみちゃん」と名付けられたこちらのスマートミラー、もちろん木枠から鏡面まで手作りし、「<a href="https://nt-kanazawa.glideapp.io/" target="_blank" rel="noopener noreferrer" className="link-projects">NT金沢2020</a>」に出展しました。</p>
+                            <p class="project_description">YouTubeでの公開もお楽しみに！
+                                {/* <a href="https://www.youtube.com/watch?v=OYtdHdW2QCU&list=PLD6iesuOnD4PeQOzbv5h4e0JavQmN9BDU&index=1" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    コチラ
+                                </a> */}
                             </p> 
                         </div>
                     </div>
