@@ -162,13 +162,13 @@ class Projects extends React.Component {
                         </div>
 
                         <div class="project_content">
-                            <p class="project_name">IoT矢文</p>
+                            <p class="project_name">Hack Day 2021</p>
                             <p class="project_description">
-                                &nbsp;&nbsp;日本最大級のハッカソン「
+                                &nbsp;&nbsp;Yahoo!JAPAN主催で日本最大級のHackathon「
                                     <a href="https://hackday.jp/" target="_blank" rel="noopener noreferrer" className="link-projects">
                                         Hack Day 2021
                                     </a>
-                                」に参加して製作した成果物。
+                                」に参加して開発、発表したIoT矢文。
                             </p>
                             <p class="project_description">
                                 &nbsp;&nbsp;「やふみちゃん」と名付けられたこのガジェットは、全く新しい独自開発のHangarrowシステムにより、迅速で強力なメッセージ送信体験を実現。強靭なHangerから放たれるArrowに結ばれた短冊は、RaspberryPiで取得した画像からCLOVA OCRで内容と宛名を解析され、GASとLINE Messaging APIの連携により正確に相手に届けられる。やふみちゃんに射抜かれその心を奪われなかった者はいない。
