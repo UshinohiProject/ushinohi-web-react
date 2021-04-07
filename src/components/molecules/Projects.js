@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 
 import Shikaku from './img/projects/shikaku.jpg'
-import Mai from './img/projects/mai.jpg'
+import Mai from './img/projects/mai.JPG'
 import Covid19 from './img/projects/covid_19.png'
 import Hiyori from './img/projects/hiyori.png'
 import Yafumi from './img/projects/yafumi.png'
@@ -38,7 +38,7 @@ class Projects extends React.Component {
                     <div class="project">
                         <div class="project_content_pic">
                             <a href="https://www.youtube.com/watch?v=s58ha8iRuhc&list=PLD6iesuOnD4P_5LHOksX2iRmYkMzcQEwT" target="_blank" rel="noopener noreferrer">
-                                <img class="project_pic" src={Mai} alt="project's thumbnail"></img>
+                                <img class="project_pic project-pic-round" src={Mai} alt="project's thumbnail"></img>
                             </a>
                         </div>
 
