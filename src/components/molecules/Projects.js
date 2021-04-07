@@ -5,6 +5,7 @@ import Shikaku from './img/projects/shikaku.jpg'
 import Mai from './img/projects/mai.jpg'
 import Covid19 from './img/projects/covid_19.jpg'
 import DayOne from './img/projects/day_one.jpg'
+import Yafumi from './img/projects/yafumi.png'
 import Sara from './img/projects/sara.jpg'
 import WebDesign from './img/projects/web_design.jpg'
 import LChika from './img/projects/l_chika.jpg'
@@ -114,6 +115,33 @@ class Projects extends React.Component {
                                 </a>)。
                             </p>
 
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project_content_pic">
+                            <a href="https://youtu.be/lXl-brlEuRw?t=8111" target="_blank" rel="noopener noreferrer">
+                                <img class="project_pic project-pic-round" src={Yafumi} alt="project's thumbnail"></img>
+                            </a>
+                        </div>
+
+                        <div class="project_content">
+                            <p class="project_name">IoT矢文</p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;日本最大級のハッカソン「
+                                    <a href="https://hackday.jp/" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                        Hack Day 2021
+                                    </a>
+                                」に参加して製作した成果物。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;「やふみちゃん」と名付けられたこのガジェットは、全く新しい独自開発のHangarrowシステムにより、迅速で強力なメッセージ送信体験を実現。強靭なHangerから放たれるArrowに結ばれた短冊は、RaspberryPiで取得した画像からCLOVA OCRで内容と宛名を解析され、GASとLINE Messaging APIの連携により正確に相手に届けられる。やふみちゃんに射抜かれその心を奪われなかった者はいない。
+                            </p>
+                            <p class="project_description">発表の様子は
+                                <a href="https://youtu.be/lXl-brlEuRw?t=8111" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    コチラ
+                                </a>
+                            </p>
                         </div>
                     </div>
 

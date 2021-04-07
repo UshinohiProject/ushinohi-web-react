@@ -48,6 +48,10 @@
     display: block;
     max-width: 100%;
 }
+.project-pic-round {
+	border-radius: 20px;
+	box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, .4);
+}
 .link-projects {
     color: rgb(116, 116, 116);
 }
