@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import './Header.css';
-import UshinohiLogo from './img/icon_header.png'
+import UshinohiLogo from './img/icon_header.jpg'
 
 class Header extends React.Component {
     render() {
         return (
             <header>
-                <h1>
+                <h1 className="h1-header-logo">
                     <Link to="/">
                         <img
                             src={UshinohiLogo}
