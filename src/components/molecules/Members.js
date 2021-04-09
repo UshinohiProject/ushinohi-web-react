@@ -82,10 +82,10 @@ class Members extends React.Component {
                             </a>
                 		</div>
                 		<p class="profile-details">
-                            &nbsp;&nbsp;鹿児島出身。工業大学在学中に参加したロボコンでリーダーを務め、所属チームの活躍に貢献。大学卒業後はエネルギー産業関連企業に従事していたが、夢を追って1年で転職。
+                            &nbsp;&nbsp;鹿児島出身。工業大学在学中に参加したロボコンでリーダーを務め、所属チームの活躍に貢献。大学卒業後はエネルギー産業関連企業に従事していたが、夢を追って転職。
                         </p>
                         <p class="profile-details">
-                            &nbsp;&nbsp;現在はIoTに携わる会社で奮闘中の会社員。AniiとMarkに無理やりヤクルトファンにさせられた。
+                            &nbsp;&nbsp;現在はロボット開発に携わる会社で奮闘中の会社員。AniiとMarkに無理やりヤクルトファンにさせられた。
                         </p>
                 	</div>
                 </div>
