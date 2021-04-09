@@ -41,7 +41,7 @@
 .project_content_pic {
 	float: left;
 	width: 40%;
-	margin: auto 2.5%;
+	margin: 30px 2.5% auto 2.5%;
 }
 .project_content {
 	float: left;
@@ -67,21 +67,26 @@
     height: auto;
     display: block;
     max-width: 100%;
+	margin: 0 auto;
 }
 .project-pic-round {
 	border-radius: 20px;
-	box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, .4);
+	box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, .2);
 }
 .link-projects {
     color: rgb(116, 116, 116);
 }
 /*タブレット用*/
 @media(max-width: 800px) {
-    .project_content_pic,
+    .project_content_pic {
+        float: none;
+        width: calc(90% - 8px);
+		margin: auto 5%;
+    }
     .project_content {
         float: none;
-        width: 100%;
-        margin-right: 0;
+        width: calc(80% - 8px);
+		margin: auto 10%;
     }
  
     .project_content_pic {
@@ -89,6 +94,10 @@
     }
 	.project_name {
 		text-align: center;
+	}
+	.project_name-dayone {
+		max-width: 480px;
+		margin: 0 auto;
 	}
 	.menu-toggle {
 		margin: 0px 10px 0px auto;
@@ -100,20 +109,27 @@
         font-size: 5px;
     }
   
-    .project_content_pic,
+    .project_content_pic {
+        width: calc(95% - 8px);
+		margin: auto 2.5%;
+        padding: 4px;
+    }
     .project_content {
-        padding: .8rem;
+        width: calc(85% - 8px);
+		margin: auto 7.5%;
+        padding: 4px;
     }
   
     .project_content_pic {
         margin-bottom: 1rem;
     }
 	.project_name {
-		font-size: 25px;
+		font-size: 35px;
 		text-align: center;
 	}
-	.project_description {
-		font-size: 15px;
+	.project_name-dayone {
+		max-width: 440px;
+		margin: 0 auto;
 	}
 	.menu-toggle {
 		margin: 0px 10px 0px auto;
