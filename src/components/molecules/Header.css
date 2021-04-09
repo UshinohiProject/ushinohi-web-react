@@ -1,6 +1,6 @@
 header {
-    width: 92%;
-    padding: 30px 4% 10px;
+    width: 96%;
+    padding: 10px 2% 10px;
     background-color: rgb(31, 31, 31);
     position: fixed;
     top: 0;
@@ -9,12 +9,13 @@ header {
     z-index: 20;
 }
 
-h1 {
+h1.h1-header-logo {
     margin: 0; padding: 0;
     font-size: 20px;
 }
 .header-logo {
-    height: 30px;
+    height: 35px;
+    mix-blend-mode: screen;
 }
 a {	
    text-decoration: none;
