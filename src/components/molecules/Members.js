@@ -20,7 +20,7 @@ class Members extends React.Component {
                 <h2 className="heading-members" data-en="Members">メンバー紹介</h2>
                 <div class="profile">
                 	<div class="profile_content profile_content_pic">
-                		<img class="profile_pic" src={AniiIcon} alt="profile icon"></img>
+                		<img class="profile_pic profile_pic_anii" src={AniiIcon} alt="profile icon"></img>
                 	</div>
                 	<div class="profile_content">
                 		<p class="profile_name">Anii (雪村・魁(さき)=スカイウォーカー)</p>
@@ -57,7 +57,7 @@ class Members extends React.Component {
                 </div>
                 <div class="profile">
                 	<div class="profile_content profile_content_pic">
-                		<img class="profile_pic" src={TaroIcon} alt="profile icon"></img>
+                		<img class="profile_pic profile_pic_taro" src={TaroIcon} alt="profile icon"></img>
                 	</div>
                 	<div class="profile_content">
                 		<p class="profile_name">Taro (タロウ)</p>
@@ -91,7 +91,7 @@ class Members extends React.Component {
                 </div>
                 <div class="profile">
                 	<div class="profile_content profile_content_pic">
-                		<img class="profile_pic" src={MarkIcon} alt="profile icon"></img>
+                		<img class="profile_pic profile_pic_mark" src={MarkIcon} alt="profile icon"></img>
                 	</div>
                 	<div class="profile_content">
                 		<p class="profile_name">Mark</p>
