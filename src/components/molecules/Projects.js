@@ -27,7 +27,15 @@ class Projects extends React.Component {
 
                         <div class="project_content">
                             <p class="project_name">3Dプリンター製作</p>
-                            <p class="project_description">&nbsp;&nbsp;丑之日プロジェクトによる最初のプロジェクト。ゼロの状態からものづくりを始めた私たちであったが、お金のない私たちは最新機器など買えるはずがなかった。&nbsp;&nbsp;「ならば自分で作ればいいじゃないか。」&nbsp;&nbsp;そんなクレイジーな発想から始まったプロジェクト第一号。</p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;丑之日プロジェクトによる最初のプロジェクト。ゼロの状態からものづくりを始めた私たちであったが、お金のない私たちは最新機器など買えるはずがなかった。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;「ならば自分で作ればいいじゃないか。」
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;そんなクレイジーな発想から始まったプロジェクト第一号。
+                            </p>
                             <p class="project_description">
                               YouTubeは
                                 <a href="https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB" target="_blank" rel="noopener noreferrer" className="link-projects">
@@ -46,7 +54,12 @@ class Projects extends React.Component {
 
                         <div class="project_content">
                             <p class="project_name">ドローン製作</p>
-                            <p class="project_description">&nbsp;&nbsp;3Dプリンターをなんとか完成させたことで少し自信がついた丑之日プロジェクトが、次に作るものを調子に乗ってドローンに決定してしまった。&nbsp;&nbsp;すぐに完成すると思ったが、偽物の充電器をつかまされたり、おもったような挙動をしてくれなかったりと結局苦労することになる。</p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;3Dプリンターをなんとか完成させたことで少し自信がついた丑之日プロジェクトが、次に作るものを調子に乗ってドローンに決定してしまった。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;すぐに完成すると思ったが、偽物の充電器をつかまされたり、おもったような挙動をしてくれなかったりと結局苦労することになる。
+                            </p>
                             <p class="project_description">
                                 YouTubeは
                                 <a href="https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB" target="_blank" rel="noopener noreferrer" className="link-projects">
@@ -77,7 +90,16 @@ class Projects extends React.Component {
                                 <a href="https://twitter.com/kzpng2" target="_blank" rel="noopener noreferrer" className="link-projects">
                                     Kazu
                                 </a>
-                                さんと共に参加。&nbsp;&nbsp;紆余曲折経て、「植物の根っこに頭を突っ込んで寝る空気清浄機」を発案して提出。&nbsp;&nbsp;果たしてNASAやJAXAは、丑之日プロジェクトを認めてくれるのか。結果は夏に発表される。(2020年8月追記: 認めてもらえませんでした。)
+                                さんと共に参加。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;紆余曲折経て、「植物の根っこに頭を突っ込んで寝る空気清浄機」を発案して提出。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;果たしてNASAやJAXAは、丑之日プロジェクトを認めてくれるのか。結果は夏に発表される。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;(2020年8月追記: 認めてもらえませんでした。)
                             </p>
                             <p class="project_description">
                                 Space Appsの丑之日プロジェクトのページは
@@ -97,21 +119,30 @@ class Projects extends React.Component {
                         </div>
 
                         <div class="project_content">
-                            <p class="project_name">ぼくらの宇宙アイデアソン-DayONE-</p>
+                            <p class="project_name project_name-dayone">ぼくらの宇宙アイデアソン -DayONE-</p>
                             <p class="project_description">&nbsp;&nbsp;
                                 JAXA提供の「
                                 <a href="https://startupgarage.connpass.com/event/182391/" target="_blank" rel="noopener noreferrer" className="link-projects">
                                     ぼくらの宇宙アイデアソン-DayONE-
                                 </a>
-                                」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というアイデアソン。丑之日プロジェクトはAniiとMarkの2人で大阪とカリフォルニアからリモート参加。&nbsp;&nbsp;「気象予測情報・実測情報を用いて洗濯物の感想時刻を予測するアプリ」を考案して発表(
+                                」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というアイデアソン。丑之日プロジェクトはAniiとMarkの2人で大阪とカリフォルニアからリモート参加。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;「気象予測情報・実測情報を用いて洗濯物の感想時刻を予測するアプリ」を考案して発表(
                                 <a href="https://youtu.be/AzSkr9oo_QQ" target="_blank" rel="noopener noreferrer" className="link-projects">
                                     発表の様子
                                 </a>
-                                )。&nbsp;&nbsp;ルールを守って短時間で企画・資料発表を強行した結果、甘々な発表になってしまったが、なんとスペシャルゲストで元AKB48の
+                                )。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;ルールを守って短時間で企画・資料発表を強行した結果、甘々な発表になってしまったが、なんとスペシャルゲストで元AKB48の
                                 <a href="https://twitter.com/ami__maeda0601" target="_blank" rel="noopener noreferrer" className="link-projects">
                                     前田亜美さん
                                 </a>
-                                より「前田亜美賞」を受賞。AniiとMarkがまさかの受賞と芸能人との会話に大慌てする様子が全世界に生配信された(
+                                より「前田亜美賞」を受賞。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;AniiとMarkがまさかの受賞と芸能人との会話に大慌てする様子が全世界に生配信された(
                                 <a href="https://youtu.be/AzSkr9oo_QQ?t=5264" target="_blank" rel="noopener noreferrer" className="link-projects">
                                     授賞式で大慌てする2人の様子
                                 </a>)。
@@ -135,9 +166,11 @@ class Projects extends React.Component {
                                 </a>
                                 」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というHackathon。丑之日プロジェクトはメンバー3人全員でそれぞれカリフォルニア、東京、大阪から愛知県豊橋会場へリモート参加。
                             </p>
-                            <p class="project_description">&nbsp;&nbsp;持続可能な宇宙開発を実現する探索モジュール「いちご大福(Manjuu)」と「すいとりくん(Mr. Vacume)」を考案してプロトタイプを作成、発表。
+                            <p class="project_description">
+                                &nbsp;&nbsp;持続可能な宇宙開発を実現する探索モジュール「いちご大福(Manjuu)」と「すいとりくん(Mr. Vacume)」を考案してプロトタイプを作成、発表。
                             </p>
-                            <p class="project_description">&nbsp;&nbsp;今までに参加したハッカソンでの反省を活かし、短い制限時間内で満足のいく開発と発表ができたことにより、「審査員長賞」と「ピープルズチョイス賞」をダブル受賞。代表として世界審査に進出し、Global Nomineeとなった(
+                            <p class="project_description">
+                                &nbsp;&nbsp;今までに参加したハッカソンでの反省を活かし、短い制限時間内で満足のいく開発と発表ができたことにより、「審査員長賞」と「ピープルズチョイス賞」をダブル受賞。代表として世界審査に進出し、Global Nomineeとなった(
                                 <a href="https://2020.spaceappschallenge.org/challenges/create/virtual-planetary-exploration/teams/ushinohi-project-1/project" target="_blank" rel="noopener noreferrer" className="link-projects">
                                     NASAのWEBページ
                                 </a>)。
@@ -171,7 +204,10 @@ class Projects extends React.Component {
                                 」に参加して開発、発表したIoT矢文。
                             </p>
                             <p class="project_description">
-                                &nbsp;&nbsp;「やふみちゃん」と名付けられたこのガジェットは、全く新しい独自開発のHangarrowシステムにより、迅速で強力なメッセージ送信体験を実現。強靭なHangerから放たれるArrowに結ばれた短冊は、RaspberryPiで取得した画像からCLOVA OCRで内容と宛名を解析され、GASとLINE Messaging APIの連携により正確に相手に届けられる。やふみちゃんに射抜かれその心を奪われなかった者はいない。
+                                &nbsp;&nbsp;「やふみちゃん」と名付けられたこのガジェットは、全く新しい独自開発のHangarrowシステムにより、迅速で強力なメッセージ送信体験を実現。強靭なHangerから放たれるArrowに結ばれた短冊は、RaspberryPiで取得した画像からCLOVA OCRで内容と宛名を解析され、GASとLINE Messaging APIの連携により正確に相手に届けられる。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;やふみちゃんに射抜かれその心を奪われなかった者はいない。
                             </p>
                             <p class="project_description">発表の様子は
                                 <a href="https://youtu.be/lXl-brlEuRw?t=8111" target="_blank" rel="noopener noreferrer" className="link-projects">

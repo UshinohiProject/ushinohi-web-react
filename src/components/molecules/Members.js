@@ -20,7 +20,7 @@ class Members extends React.Component {
                 <h2 className="heading-members" data-en="Members">メンバー紹介</h2>
                 <div class="profile">
                 	<div class="profile_content profile_content_pic">
-                		<img class="profile_pic" src={AniiIcon} alt="profile icon"></img>
+                		<img class="profile_pic profile_pic_anii" src={AniiIcon} alt="profile icon"></img>
                 	</div>
                 	<div class="profile_content">
                 		<p class="profile_name">Anii (雪村・魁(さき)=スカイウォーカー)</p>
@@ -47,12 +47,17 @@ class Members extends React.Component {
                                 <img class="profile_icon" src={NoteIcon} alt="Note Icon"></img>
                             </a>
                 		</div>
-                		<p class="profile-details">鹿児島出身。高校3年の夏に突如留学を決意し、半年間の外語学院での準備期間を経てカリフォルニア・シリコンバレーの大学に入学。Mechanical Engineering(機械工学)を専攻し、なんとか卒業。シリコンバレーのスタートアップ企業でソフトウェアの仕事をしたのち、日本に帰国。現在絶賛就活中。タイガースファン。</p>
+                		<p class="profile-details">
+                            &nbsp;&nbsp;鹿児島出身。高校3年の夏に突如留学を決意し、半年間の外語学院での準備期間を経てカリフォルニア・シリコンバレーの大学に入学。Mechanical Engineering(機械工学)を専攻し、なんとか卒業。
+                        </p>
+                        <p class="profile-details">
+                            &nbsp;&nbsp;シリコンバレーのスタートアップ企業でソフトウェアの仕事をしたのち、日本に帰国。現在絶賛就活中。タイガースファン。
+                        </p>
                 	</div>
                 </div>
                 <div class="profile">
                 	<div class="profile_content profile_content_pic">
-                		<img class="profile_pic" src={TaroIcon} alt="profile icon"></img>
+                		<img class="profile_pic profile_pic_taro" src={TaroIcon} alt="profile icon"></img>
                 	</div>
                 	<div class="profile_content">
                 		<p class="profile_name">Taro (タロウ)</p>
@@ -76,12 +81,17 @@ class Members extends React.Component {
                                 <img class="profile_icon" src={TaroIcon} alt="Taro Icon"></img>
                             </a>
                 		</div>
-                		<p class="profile-details">鹿児島出身。工業大学在学中に参加したロボコンでリーダーを務め、所属チームの活躍に貢献。大学卒業後はエネルギー産業関連企業に従事していたが、夢を追って1年で転職。現在はIoTに携わる会社で奮闘中の会社員。AniiとMarkに無理やりヤクルトファンにさせられた。</p>
+                		<p class="profile-details">
+                            &nbsp;&nbsp;鹿児島出身。工業大学在学中に参加したロボコンでリーダーを務め、所属チームの活躍に貢献。大学卒業後はエネルギー産業関連企業に従事していたが、夢を追って転職。
+                        </p>
+                        <p class="profile-details">
+                            &nbsp;&nbsp;現在はロボット開発に携わる会社で奮闘中の会社員。AniiとMarkに無理やりヤクルトファンにさせられた。
+                        </p>
                 	</div>
                 </div>
                 <div class="profile">
                 	<div class="profile_content profile_content_pic">
-                		<img class="profile_pic" src={MarkIcon} alt="profile icon"></img>
+                		<img class="profile_pic profile_pic_mark" src={MarkIcon} alt="profile icon"></img>
                 	</div>
                 	<div class="profile_content">
                 		<p class="profile_name">Mark</p>
@@ -105,7 +115,12 @@ class Members extends React.Component {
                                 <img class="profile_icon" src={MarkIcon} alt="Mark Icon"></img>
                             </a>
                 		</div>
-                		<p class="profile-details">ニューヨーク生まれ横浜市育ち。高校からはカナダで語学留学をしており、今はアメリカ人としてカリフォルニアのシリコンバレーの大学生。７歳からLEGOロボットで遊んでいて全国大会出場の経験あり。趣味は野球観戦で根からのカープファン。</p>
+                		<p class="profile-details">
+                            &nbsp;&nbsp;ニューヨーク生まれ横浜市育ち。高校からはカナダで語学留学をしており、今はアメリカ人としてカリフォルニアのシリコンバレーの大学生。７歳からLEGOロボットで遊んでいて全国大会出場の経験あり。
+                        </p>
+                        <p class="profile-details">
+                            &nbsp;&nbsp;趣味は野球観戦で根からのカープファン。
+                        </p>
                 	</div>
                 </div>
             </div>
