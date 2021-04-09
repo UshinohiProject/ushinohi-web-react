@@ -40,6 +40,7 @@
 }
 .profile_name {
 	font-size: 1.5em;
+	color: grey;
 	font-weight: bold;
 }
 .profile_icon {
@@ -47,6 +48,9 @@
 	height: 30px;
 	width: 30px;
 	margin: 2.5px;
+}
+.profile-details {
+	color: grey;
 }
 .members_main {
 	display: flex;
@@ -63,9 +67,10 @@
 	margin-bottom: 35px;
 }
 .profile {
+	width: 80%;
 	max-width: 700px;
 	min-height: 265px;
-	padding: 25px 0px;
+	padding: 25px 0px 90px 0px;
 	margin: 0px auto;
 }
 
@@ -86,12 +91,16 @@
 /*スマホ用*/
 @media(max-width: 600px) {
 	.profile-details {
-		padding: 0px 0px 65px 0px;
+		font-size: 18px;
+		color: grey;
+		padding: 0px 0px 7px 0px;
 	}
 	.profile_content_pic {
 		margin: 0px calc((100% - 160px)/2);
 	}
 	.profile_name {
+		font-size: 18px;
+		color: grey;
 		text-align: center;
 	}
 }
