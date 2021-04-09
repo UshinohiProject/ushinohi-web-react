@@ -17,7 +17,7 @@ class Members extends React.Component {
     render() {
         return (
             <div className="members">
-                <h2 className="title">Members</h2>
+                <h2 className="heading-members" data-en="Members">メンバー紹介</h2>
                 <div class="profile">
                 	<div class="profile_content profile_content_pic">
                 		<img class="profile_pic" src={AniiIcon} alt="profile icon"></img>
