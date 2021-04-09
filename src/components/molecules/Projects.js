@@ -16,7 +16,7 @@ class Projects extends React.Component {
     render() {
         return (
             <div>
-                <h2 className="title">Projects</h2>
+                <h2 className="heading-projects" data-en="Projects">プロジェクト一覧</h2>
                 <div class="project_main">
                     <div class="project">
                         <div class="project_content_pic">

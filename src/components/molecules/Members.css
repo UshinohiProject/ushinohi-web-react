@@ -1,6 +1,26 @@
-.title {
-    text-align: center;
+.heading-members {
+	position: relative;
+	padding-top: 50px;
+	font-size: 26px;
+	text-align: center;
 }
+
+.heading-members span {
+	position: relative;
+	z-index: 2;
+}
+
+.heading-members::before {
+	content: attr(data-en);
+	position: absolute;
+	top: -8px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: rgba(84, 224, 66, 0.2);
+	font-size: 80px;
+	font-style: italic;
+}
+
 .members_title {
 	text-align: center;
 	font-size: 4em;
