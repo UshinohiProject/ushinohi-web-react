@@ -1,4 +1,5 @@
 import React from 'react';
+import Burger from './Burger'
 import { Link } from 'react-router-dom'
 import './Header.css';
 import UshinohiLogo from './img/icon_header.jpg'
@@ -16,7 +17,7 @@ class Header extends React.Component {
                         />
                     </Link>
                 </h1>
-                <nav>
+                <nav className="nav-pc">
                     <ul>
                         <li>
                             <Link to="/">Top</Link>
@@ -35,6 +36,9 @@ class Header extends React.Component {
                         </li>
                     </ul>
                 </nav>
+                <div className="nav-sp">
+                    <Burger right />
+                </div>
             </header>
         );
     }
