@@ -261,7 +261,7 @@ class Projects extends React.Component {
 
                         <div class="project_content">
                             <p class="project_name">Webサイト製作</p>
-                            <p class="project_description">&nbsp;&nbsp;もっと色々な人に知ってもらう為に3Dプリンターと同時進行でこの丑の日Webサイトを作っています。&nbsp;&nbsp;ハードウェアだけではなくソフトウエアにも挑戦しています。</p>
+                            <p class="project_description">&nbsp;&nbsp;もっと色々な人に知ってもらう為に3Dプリンターと同時進行でこの丑之日Webサイトを作っています。&nbsp;&nbsp;ハードウェアだけではなくソフトウエアにも挑戦しています。</p>
                         </div>
                     </div>
 
@@ -274,7 +274,7 @@ class Projects extends React.Component {
 
                         <div class="project_content">
                             <p class="project_name">Lチカ</p>
-                            <p class="project_description">&nbsp;&nbsp;Arduinoを使ってLEDを光らせるだけの丑の日では最短のプロジェクト。簡単すぎてプロジェクトとは言い辛いが、Arduinoの経験があまりない私たちはエラーに苦戦する。&nbsp;&nbsp;苦悩の末３色の信号を作り上げた。</p>
+                            <p class="project_description">&nbsp;&nbsp;Arduinoを使ってLEDを光らせるだけの丑之日では最短のプロジェクト。簡単すぎてプロジェクトとは言い辛いが、Arduinoの経験があまりない私たちはエラーに苦戦する。&nbsp;&nbsp;苦悩の末３色の信号を作り上げた。</p>
                             <p class="project_description">YouTubeは
                                 <a href="https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A" target="_blank" rel="noopener noreferrer" className="link-projects">
                                     コチラ
