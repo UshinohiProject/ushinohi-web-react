@@ -20,3 +20,116 @@
 	font-size: 80px;
 	font-style: italic;
 }
+
+.business_main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+.business {
+	width: 100%;
+	max-width: 1200px;
+	padding: 30px 0px;
+	margin: 0 auto;
+}
+.business:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+.business_content_pic {
+	float: left;
+	width: 40%;
+	margin: 30px 2.5% auto 2.5%;
+}
+.business_content {
+	float: left;
+	width: 50%;
+	margin: auto 2.5%;
+}
+.business_title {
+	text-align: center;
+	font-size: 4em;
+	font-weight: bold;
+}
+.business_name {
+	font-weight: bold;
+	font-size: 40px;
+	padding: 20px 10px 0px 10px;
+	margin: 0;
+}
+.business_description {
+	font-size: 20px;
+	color: grey;
+}
+.business_pic {
+    height: auto;
+    display: block;
+    max-width: 100%;
+	margin: 0 auto;
+}
+.business-pic-round {
+	border-radius: 20px;
+	box-shadow: 8px 8px 10px 0 rgba(0, 0, 0, .2);
+}
+
+/*タブレット用*/
+@media(max-width: 800px) {
+    .business_content_pic {
+        float: none;
+        width: calc(90% - 8px);
+		margin: auto 5%;
+    }
+    .business_content {
+        float: none;
+        width: calc(80% - 8px);
+		margin: auto 10%;
+    }
+ 
+    .business_content_pic {
+        margin-bottom: 1.5rem;
+    }
+	.business_name {
+		text-align: center;
+	}
+	.business_name-dayone {
+		max-width: 480px;
+		margin: 0 auto;
+	}
+	.menu-toggle {
+		margin: 0px 10px 0px auto;
+    }
+}
+/*スマホ用*/
+@media(max-width: 600px) {
+    html {
+        font-size: 5px;
+    }
+  
+    .business_content_pic {
+        width: calc(95% - 8px);
+		margin: auto 2.5%;
+        padding: 4px;
+    }
+    .business_content {
+        width: calc(85% - 8px);
+		margin: auto 7.5%;
+        padding: 4px;
+    }
+  
+    .business_content_pic {
+        margin-bottom: 1rem;
+    }
+	.business_name {
+		font-size: 35px;
+		text-align: center;
+	}
+	.business_name-dayone {
+		max-width: 440px;
+		margin: 0 auto;
+	}
+	.menu-toggle {
+		margin: 0px 10px 0px auto;
+    }
+}
