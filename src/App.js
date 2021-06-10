@@ -8,6 +8,7 @@ import Footer from './components/molecules/Footer'
 import Top from './components/molecules/Top'
 import Members from './components/molecules/Members'
 import Projects from './components/molecules/Projects'
+import Business from './components/molecules/Business'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path='/' component={Top}/>
           <Route path='/Members' component={Members}/>
           <Route path='/Projects' component={Projects}/>
+          <Route path='/Business' component={Business}/>
         </div>
         <Footer />
       </Router>
