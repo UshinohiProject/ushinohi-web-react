@@ -51,7 +51,7 @@ class Members extends React.Component {
                             &nbsp;&nbsp;鹿児島出身。高校3年の夏に突如留学を決意し、半年間の外語学院での準備期間を経てカリフォルニア・シリコンバレーの大学に入学。Mechanical Engineering(機械工学)を専攻し、なんとか卒業。
                         </p>
                         <p class="profile-details">
-                            &nbsp;&nbsp;シリコンバレーのスタートアップ企業でソフトウェアの仕事をしたのち、日本に帰国。現在絶賛就活中。タイガースファン。
+                            &nbsp;&nbsp;シリコンバレーのスタートアップ企業でソフトウェアの仕事をしたのち、日本に帰国。現在某IT企業で会社員として働きながらカリフォルニアの大学でComputer Science専攻の学生もしている。阪神ファン。
                         </p>
                 	</div>
                 </div>
