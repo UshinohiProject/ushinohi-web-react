@@ -9,6 +9,7 @@ import Top from './components/molecules/Top'
 import Members from './components/molecules/Members'
 import Projects from './components/molecules/Projects'
 import Business from './components/molecules/Business'
+import DigitalHackDay2021 from './components/molecules/DigitalHackDay2021'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/Members' component={Members}/>
           <Route path='/Projects' component={Projects}/>
           <Route path='/Business' component={Business}/>
+          <Route path='/DigitalHackDay2021' component={DigitalHackDay2021}/>
         </div>
         <Footer />
       </Router>
