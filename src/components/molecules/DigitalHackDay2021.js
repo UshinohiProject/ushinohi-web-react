@@ -11,8 +11,11 @@ class DigitalHackDay2021 extends React.Component {
                 <div class="project-detail">
                 	<img class="project-detail-top-pic" src={Kenko} alt="Kenko-chan."></img>
                     <h2 className="description">Digital HackDay 2021 発表作品</h2>
-                    <p className="description">2021年9月26日13時頃の発表に向け、鋭意製作中。</p>
-                    <p className="description">発表とページの更新を乞うご期待。</p>
+                    <p className="description">
+                        <a href="https://github.com/UshinohiProject/DigitalHackday2021-WioLTE" target="_blank" rel="noopener noreferrer" className="link-projects">
+                            Wio LTE側のGitHub
+                        </a>
+                    </p>
 
                 </div>
             </div>
