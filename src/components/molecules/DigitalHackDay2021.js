@@ -3,12 +3,12 @@ import './DigitalHackDay2021.css';
 
 import Kenko from './img/projects/kenko_big.jpg';
 import Devices from './img/digital_hackday_2021/devices.jpg';
-import Sensors from './img/digital_hackday_2021/sensors.jpg';
-import HowToUse from './img/digital_hackday_2021/how_to_use.jpg';
-import HappyPotato from './img/digital_hackday_2021/happy_potato.jpg';
-import SadPotato from './img/digital_hackday_2021/sad_potato.jpg';
+// import Sensors from './img/digital_hackday_2021/sensors.jpg';
+// import HowToUse from './img/digital_hackday_2021/how_to_use.jpg';
+// import HappyPotato from './img/digital_hackday_2021/happy_potato.jpg';
+// import SadPotato from './img/digital_hackday_2021/sad_potato.jpg';
 // import MessageFromKenko from './img/digital_hackday_2021/massage_from_kenko.jpg';
-import KenkoWeb from './img/digital_hackday_2021/kenko_web.jpg';
+// import KenkoWeb from './img/digital_hackday_2021/kenko_web.jpg';
 
 class DigitalHackDay2021 extends React.Component {
     render() {
