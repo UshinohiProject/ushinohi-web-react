@@ -120,6 +120,9 @@ class Projects extends React.Component {
 
                         <div class="project_content">
                             <p class="project_name project_name-dayone">ぼくらの宇宙アイデアソン -DayONE-</p>
+                            <div>
+                                <h2 className="award-ribbon"><span>前田亜美賞 受賞</span></h2>
+                            </div>
                             <p class="project_description">&nbsp;&nbsp;
                                 JAXA提供の「
                                 <a href="https://startupgarage.connpass.com/event/182391/" target="_blank" rel="noopener noreferrer" className="link-projects">
@@ -159,6 +162,15 @@ class Projects extends React.Component {
 
                         <div class="project_content">
                             <p class="project_name">Space Apps Challenge 2020</p>
+                            <div>
+                                <h2 className="award-ribbon"><span>NASA Global Nominee</span></h2>
+                            </div>
+                            <div>
+                                <h2 className="award-ribbon"><span>豊橋会場 審査員長賞 受賞</span></h2>
+                            </div>
+                            <div>
+                                <h2 className="award-ribbon"><span>豊橋会場 People's Choice賞 受賞</span></h2>
+                            </div> 
                             <p class="project_description">&nbsp;&nbsp;
                                 NASA主催の「
                                 <a href="https://2020.spaceappschallenge.org" target="_blank" rel="noopener noreferrer" className="link-projects">
