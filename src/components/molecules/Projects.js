@@ -7,6 +7,8 @@ import Covid19 from './img/projects/covid_19.png'
 import Hiyori from './img/projects/hiyori.png'
 import Vacume from './img/projects/vacume.png'
 import Yafumi from './img/projects/yafumi.png'
+import Satsue from './img/projects/satsue.JPG'
+import Kenko from './img/projects/kenko.jpg'
 import Sara from './img/projects/sara.jpg'
 import Emi from './img/projects/emi.png'
 import WebDesign from './img/projects/web_design.jpg'
@@ -223,6 +225,84 @@ class Projects extends React.Component {
                             </p>
                             <p class="project_description">発表の様子は
                                 <a href="https://youtu.be/lXl-brlEuRw?t=8111" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    コチラ
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project_content_pic">
+                            <a href="https://youtu.be/lXl-brlEuRw?t=8111" target="_blank" rel="noopener noreferrer">
+                                <img class="project_pic project-pic-round" src={Satsue} alt="project's thumbnail"></img>
+                            </a>
+                        </div>
+
+                        <div class="project_content">
+                            <p class="project_name">Space Apps Challenge 2021</p>
+                            <div>
+                                <h2 className="award-ribbon"><span>豊橋会場 海の男賞 受賞</span></h2>
+                            </div>
+                            <p class="project_description">
+                            &nbsp;&nbsp;
+                                NASA主催の「
+                                <a href="https://2021.spaceappschallenge.org" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    Space Apps Challenge 2020
+                                </a>
+                                」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というHackathon。2021年はTaroの参加は叶わなかったものの、Aniiのカリフォルニア在住時代のルームメイトKazooさんを迎え、「丑之日プロジェクト with K」として3人でそれぞれカリフォルニア、東京、大阪から愛知県豊橋会場へリモート参加。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;今年は「VIRTUAL PLANETARY EXPLORATION V2.0」というテーマを選択した。そこで我々は「月や火星を探査しに着陸したらまず何をするか」を考えた。そう、「自撮り」である。そこで、宇宙線や真空空間などの過酷な環境でも使用可能な自撮り棒「さつえちゃん」を考案し、3Dモデルを作成。NASAに提案した(
+                                <a href="https://2021.spaceappschallenge.org/challenges/statements/virtual-planetary-exploration-v20/teams/ushinohi-project-with-k/project" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    プロジェクトページ
+                                </a>)。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;次に月を訪れる冒険者は、月の海を背景に「さつえちゃん」で撮った写真をTwitterに投稿することだろう。
+                            </p>
+                            <p class="project_description">発表の様子は
+                                <a href="https://youtu.be/utKhozqVci4?t=2720" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    コチラ
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project_content_pic">
+                            <a href="https://youtu.be/lXl-brlEuRw?t=8111" target="_blank" rel="noopener noreferrer">
+                                <img class="project_pic project-pic-round" src={Kenko} alt="project's thumbnail"></img>
+                            </a>
+                        </div>
+
+                        <div class="project_content">
+                            <p class="project_name">Digital Hack Day 2021</p>
+                            <div>
+                                <h2 className="award-ribbon"><span>決勝進出</span></h2>
+                            </div>
+                            <p class="project_description">
+                                &nbsp;&nbsp;Yahoo!JAPAN主催で日本最大級のHackathon「Hack Day」のデジタル特化版、「
+                                    <a href="https://hackday.jp/" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                        Digital Hack Day 2021
+                                    </a>
+                                」に参加して開発、発表したIoT調味料置き台。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;今回のテーマは「日本のデジタル化」、「課題解決」「Hack」「Fun」の3つの観点で審査され最優秀賞が選ばれる。ルールは「プログラミングを含む、動くプロトタイプを作ること」。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;予選は9月に行われ、24時間以内に開発、発表資料を作成しなければならない。「丑之日プロジェクト with K」として3人で参加した我々は、日本人の塩分摂取過多を解決したいと考え、健康管理をしてくれるIoT調味料置き場「けんこちゃん」を開発し、見事73組の参加チームを勝ち抜き、10組の決勝枠に進出した。
+                            </p>
+                            <p class="project_description">
+                                &nbsp;&nbsp;惜しくも最優秀賞は逃したが、生配信のコメント欄は「けんこちゃん」に魅了された視聴者で溢れた。
+                            </p>
+                            <p class="project_description">予選での発表の様子は
+                                <a href="https://youtu.be/D04R7zEfDG0?t=3904" target="_blank" rel="noopener noreferrer" className="link-projects">
+                                    コチラ
+                                </a>
+                            </p>
+                            <p class="project_description">決勝での発表の様子は
+                                <a href="https://youtu.be/w_Fb7wVX0bA?t=749" target="_blank" rel="noopener noreferrer" className="link-projects">
                                     コチラ
                                 </a>
                             </p>
