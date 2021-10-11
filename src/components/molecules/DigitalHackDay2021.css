@@ -32,7 +32,26 @@
     max-width: 100%;
 }
 
-.description {
+.heading-project-detail-subtitle {
+    text-align: center;
+    font-size: 25px;
+}
+
+.link-outside {
     text-align: center;
     font-size: 15px;
+}
+
+.project-detail-description {
+	text-align: center;
+}
+
+img.project-detail-description-pic {
+	width: 500px;
+    max-width: 100%;
+	margin: 0px auto;
+}
+
+div.project-detail-description-pic{
+	text-align: center;
 }
