@@ -233,7 +233,7 @@ class Projects extends React.Component {
 
                     <div class="project">
                         <div class="project_content_pic">
-                            <a href="https://youtu.be/lXl-brlEuRw?t=8111" target="_blank" rel="noopener noreferrer">
+                            <a href="https://youtu.be/utKhozqVci4?t=2720" target="_blank" rel="noopener noreferrer">
                                 <img class="project_pic project-pic-round" src={Satsue} alt="project's thumbnail"></img>
                             </a>
                         </div>
@@ -247,7 +247,7 @@ class Projects extends React.Component {
                             &nbsp;&nbsp;
                                 NASA主催の「
                                 <a href="https://2021.spaceappschallenge.org" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    Space Apps Challenge 2020
+                                    Space Apps Challenge 2021
                                 </a>
                                 」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というHackathon。2021年はTaroの参加は叶わなかったものの、Aniiのカリフォルニア在住時代のルームメイトKazooさんを迎え、「丑之日プロジェクト with K」として3人でそれぞれカリフォルニア、東京、大阪から愛知県豊橋会場へリモート参加。
                             </p>
@@ -270,7 +270,7 @@ class Projects extends React.Component {
 
                     <div class="project">
                         <div class="project_content_pic">
-                            <a href="https://youtu.be/lXl-brlEuRw?t=8111" target="_blank" rel="noopener noreferrer">
+                            <a href="https://youtu.be/w_Fb7wVX0bA?t=749" target="_blank" rel="noopener noreferrer">
                                 <img class="project_pic project-pic-round" src={Kenko} alt="project's thumbnail"></img>
                             </a>
                         </div>
@@ -291,7 +291,7 @@ class Projects extends React.Component {
                                 &nbsp;&nbsp;今回のテーマは「日本のデジタル化」、「課題解決」「Hack」「Fun」の3つの観点で審査され最優秀賞が選ばれる。ルールは「プログラミングを含む、動くプロトタイプを作ること」。
                             </p>
                             <p class="project_description">
-                                &nbsp;&nbsp;予選は9月に行われ、24時間以内に開発、発表資料を作成しなければならない。「丑之日プロジェクト with K」として3人で参加した我々は、日本人の塩分摂取過多を解決したいと考え、健康管理をしてくれるIoT調味料置き場「けんこちゃん」を開発し、見事73組の参加チームを勝ち抜き、10組の決勝枠に進出した。
+                                &nbsp;&nbsp;予選は9月に行われ、24時間以内に開発、発表資料を作成しなければならない。「丑之日プロジェクト with K」として3人で参加した我々は、日本人の塩分摂取過多を解決したいと考え、健康管理をしてくれるIoT調味料置き場「けんこちゃん」をKenkoWEB、KenkoAPIと共に開発し、見事73組の参加チームを勝ち抜き、10組の決勝枠に進出した。
                             </p>
                             <p class="project_description">
                                 &nbsp;&nbsp;惜しくも最優秀賞は逃したが、生配信のコメント欄は「けんこちゃん」に魅了された視聴者で溢れた。
