@@ -15,8 +15,8 @@ class DigitalHackDay2021 extends React.Component {
         return (
             <div className="project-detail-main">
                 <h2 className="heading-project-detail-title" data-en="Kenko">けんこちゃん</h2>
-                <div class="project-detail">
-                	<img class="project-detail-top-pic" src={Kenko} alt="Kenko-chan."></img>
+                <div className="project-detail">
+                	<img className="project-detail-top-pic" src={Kenko} alt="Kenko-chan."></img>
                     <h2 className="heading-project-detail-subtitle">Digital HackDay 2021 発表作品</h2>
                     <div className="project-detail-description">
                         <p>お塩。 </p><p>お味噌やお醤油の醸造にも使い、</p>
