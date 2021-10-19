@@ -6,7 +6,7 @@ class Header extends React.Component {
     render() {
         return (
             <div>
-                <div className="top-logo">
+                <div className="top-logo anim-box zoomin is-animated">
                     <img
                         src={UshinohiLogoAll}
                         alt="Full logo of Ushinohi Project"
