@@ -16,6 +16,14 @@
 
 .top-message {
     text-align: center;
-    margin-bottom: 150px;
     color: rgb(116, 116, 116);
+    max-width: 90vw;
+    margin: 0 auto 150px auto;
+}
+
+/*スマホ用*/
+@media(max-width: 600px) {
+    .top-message {
+        font-size: 17px;
+    }
 }
