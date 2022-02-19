@@ -28,6 +28,7 @@ img.share-sns {
     margin: 0 0.2em;
 }
 
+/* star from here */
 .star5_rating{
     position: relative;
     z-index: 0;
@@ -62,7 +63,8 @@ img.share-sns {
 .star5_rating[data-rate="1"]:after{ width: 20%; } /* 星1 */
 .star5_rating[data-rate="0.5"]:after{ width: 10%; } /* 星0.5 */
 .star5_rating[data-rate="0"]:after{ width: 0%; } /* 星0 */
-
+/* star to here */
+/* generate button from here */
 *,
 *:before,
 *:after {
@@ -125,3 +127,4 @@ button.btn--radius {
     color: #fff;
     background-color: #d20010;
 }
+/* generate button to here */
