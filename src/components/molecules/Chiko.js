@@ -1,6 +1,7 @@
 import React from 'react';
 import './Chiko.css';
 import Reasons from './json/chiko-reason.json'
+import LineLogo from './img/chiko/LINE_Brand_icon.png'
 
 const reason_tot_num = 11;
 
@@ -17,6 +18,10 @@ class Chiko extends React.Component {
                 <p className='late-reason'>{this.state.reason}</p>
                 <p className='late-genre'>{this.state.genre}</p>
                 <button onClick={this.generateReason}>遅刻した理由を作る</button>
+                <br/>
+                <a href={'https://line.me/R/share?text='+this.state.reason} target="_blank" rel="noopener noreferrer">
+                    <img className="share-line" src={LineLogo} alt="send with LINE"></img>
+                </a>
             </div>
         );
     }
