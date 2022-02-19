@@ -9,7 +9,7 @@ const reason_tot_num = 23;
 class Chiko extends React.Component {
     constructor(props) {
       super(props);
-      this.state = { reason: "寝坊", genre: "", text_friend: "", level: 0};
+      this.state = { reason: "寝坊", genre: "これじゃ怒られる…", text_friend: "遅刻しそう？「ちこちゃん」で時から解放されよう。", level: 0, display_inline_block : "none", display_block : "none"};
     }
     render() {
         return (
@@ -18,11 +18,11 @@ class Chiko extends React.Component {
                 <p className='late-title'>遅刻の理由</p>
                 <p className='late-reason'>{this.state.reason}</p>
                 <p className='late-genre'>{this.state.genre}</p>
-                <p className='late-level'>
+                <p className='late-level' style={{display: this.state.display_block}}>
                     深刻度: <span class="star5_rating" data-rate={this.state.level}></span>
                 </p>
                 <div className='late-button'>
-                    <a href={'https://line.me/R/share?text='+this.state.text_friend} target="_blank" rel="noopener noreferrer">
+                    <a href={'https://line.me/R/share?text='+this.state.text_friend} target="_blank" rel="noopener noreferrer" style={{display: this.state.display_inline_block}}>
                         <img className="share-sns" src={LineLogo} alt="send with LINE"></img>
                     </a>
                     <a href={'http://twitter.com/share?url=ushinohi.com/Chiko&text='+this.state.text_friend+'&via=UshinohiProject&related=UshinohiProject&hashtags=遅刻の理由ジェネレーター'} target="_blank" rel="noopener noreferrer">
@@ -42,7 +42,9 @@ class Chiko extends React.Component {
         this.setState({ reason: Reasons.reasons[reason_num].reason,
             genre: Reasons.reasons[reason_num].genre,
             text_friend: Reasons.reasons[reason_num].text_friend,
-            level: Reasons.reasons[reason_num].level
+            level: Reasons.reasons[reason_num].level,
+            display_block: "block",
+            display_inline_block: "inline-block"
         });
       };
 }
