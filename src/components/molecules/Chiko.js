@@ -3,7 +3,7 @@ import './Chiko.css';
 import Reasons from './json/chiko-reason.json'
 import LineLogo from './img/chiko/LINE_Brand_icon.png'
 
-const reason_tot_num = 11;
+const reason_tot_num = 23;
 
 class Chiko extends React.Component {
     constructor(props) {
