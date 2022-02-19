@@ -2,6 +2,7 @@ import React from 'react';
 import './Chiko.css';
 import Reasons from './json/chiko-reason.json'
 import LineLogo from './img/chiko/LINE_Brand_icon.png'
+import TwitterLogo from './img/chiko/Twitter_rounded_square.png'
 
 const reason_tot_num = 23;
 
@@ -20,11 +21,18 @@ class Chiko extends React.Component {
                 <p className='late-level'>
                     深刻度: <span class="star5_rating" data-rate={this.state.level}></span>
                 </p>
-                <button onClick={this.generateReason}>遅刻した理由を作る</button>
-                <br/>
-                <a href={'https://line.me/R/share?text='+this.state.text_friend} target="_blank" rel="noopener noreferrer">
-                    <img className="share-line" src={LineLogo} alt="send with LINE"></img>
-                </a>
+                <div className='late-button'>
+                    <a href={'https://line.me/R/share?text='+this.state.text_friend} target="_blank" rel="noopener noreferrer">
+                        <img className="share-sns" src={LineLogo} alt="send with LINE"></img>
+                    </a>
+                    <a href={'http://twitter.com/share?url=ushinohi.com/Chiko&text='+this.state.text_friend+'&via=UshinohiProject&related=UshinohiProject&hashtags=遅刻の理由ジェネレーター'} target="_blank" rel="noopener noreferrer">
+                        <img className="share-sns" src={TwitterLogo} alt="share with Twitter"></img>
+                    </a><br/>
+                    <button onClick={this.generateReason} href="" className="btn btn--red btn--radius btn--cubic">
+                        遅刻した理由を作る
+                        <i className="fas fa-angle-right fa-position-right"></i>
+                    </button>
+                </div>
             </div>
         );
     }

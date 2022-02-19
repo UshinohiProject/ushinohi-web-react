@@ -7,8 +7,9 @@ p.late-title {
 p.late-reason {
     text-align: center;
     font-family: 'Yuji Syuku', serif;
-    font-size: 12em;
-    margin: 0.2em 0;
+    font-size: 10em;
+    margin: 0.1em 0;
+    line-height: 1em
 }
 p.late-genre {
     text-align: center;
@@ -22,8 +23,9 @@ p.late-level {
     font-size: 2em;
     margin: 0.2em 0;
 }
-img.share-line {
-    height: 30px;
+img.share-sns {
+    height: 2.5rem;
+    margin: 0 0.2em;
 }
 
 .star5_rating{
@@ -60,3 +62,66 @@ img.share-line {
 .star5_rating[data-rate="1"]:after{ width: 20%; } /* 星1 */
 .star5_rating[data-rate="0.5"]:after{ width: 10%; } /* 星0.5 */
 .star5_rating[data-rate="0"]:after{ width: 0%; } /* 星0 */
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+button.btn {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.late-button {
+    text-align: center;
+}
+
+.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+button.btn--red.btn--cubic {
+  border-bottom: 5px solid #9f000c;
+}
+  
+button.btn--red.btn--cubic:hover {
+  margin-top: 3px;
+  border-bottom: 2px solid #9f000c;
+}
+
+button.btn--radius {
+  border-radius: 100vh;
+}
+
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - .5em);
+  right: 1rem;
+}
+.btn--red, button.btn--red, button.btn--red {
+    color: #fff;
+    background-color: #d20010;
+}
