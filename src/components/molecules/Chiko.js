@@ -8,7 +8,7 @@ const reason_tot_num = 11;
 class Chiko extends React.Component {
     constructor(props) {
       super(props);
-      this.state = { reason: "寝坊", genre: ""};
+      this.state = { reason: "寝坊", genre: "", text_friend: ""};
     }
     render() {
         return (
@@ -19,7 +19,7 @@ class Chiko extends React.Component {
                 <p className='late-genre'>{this.state.genre}</p>
                 <button onClick={this.generateReason}>遅刻した理由を作る</button>
                 <br/>
-                <a href={'https://line.me/R/share?text='+this.state.reason} target="_blank" rel="noopener noreferrer">
+                <a href={'https://line.me/R/share?text='+this.state.text_friend} target="_blank" rel="noopener noreferrer">
                     <img className="share-line" src={LineLogo} alt="send with LINE"></img>
                 </a>
             </div>
@@ -29,7 +29,8 @@ class Chiko extends React.Component {
     generateReason = () => {
         const reason_num = Math.floor(Math.random() * reason_tot_num);
         this.setState({ reason: Reasons.reasons[reason_num].reason,
-            genre: Reasons.reasons[reason_num].genre
+            genre: Reasons.reasons[reason_num].genre,
+            text_friend: Reasons.reasons[reason_num].text_friend
         });
       };
 }
