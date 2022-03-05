@@ -2,10 +2,10 @@ import React from 'react';
 import './Project.css';
 
 class Project extends React.Component {
-    // constructorを定義
-    constructor(props) {
-      super(props);
-    };
+    // // constructorを定義
+    // constructor(props) {
+    //   super(props);
+    // };
     render() {
         let snsButtons
         let awards
