@@ -1,7 +1,9 @@
 import React from 'react';
+import Project from './Project'
 import './Projects.css';
 
 import Shikaku from './img/projects/shikaku.jpg'
+import Chiko from './img/projects/chiko.png'
 import Mai from './img/projects/mai.jpg'
 import Covid19 from './img/projects/covid_19.png'
 import Hiyori from './img/projects/hiyori.png'
@@ -13,367 +15,298 @@ import Sara from './img/projects/sara.jpg'
 import Emi from './img/projects/emi.png'
 import WebDesign from './img/projects/web_design.jpg'
 import LChika from './img/projects/l_chika.jpg'
+import YoutubeIcon from './img/projects/youtube_icon.png'
 
 class Projects extends React.Component {
     render() {
+        // メンバーの情報は以下を編集
+        const projectList=[
+            {
+                thumnailUrl: 'https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB',
+                thumnailImg: Shikaku,
+                projectName: '3Dプリンター製作',
+                awardList: [],
+                projectDescriptionList: [
+                    '丑之日プロジェクトによる最初のプロジェクト。ゼロの状態からものづくりを始めた私たちであったが、お金のない私たちは最新機器など買えるはずがなかった。',
+                    '「ならば自分で作ればいいじゃないか。」',
+                    'そんなクレイジーな発想から始まったプロジェクト第一号。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'img',
+                        url: 'https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB',
+                        img: YoutubeIcon,
+                        alt: 'YouTube Logo'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://www.youtube.com/watch?v=s58ha8iRuhc&list=PLD6iesuOnD4P_5LHOksX2iRmYkMzcQEwT',
+                thumnailImg: Mai,
+                projectName: 'ドローン製作',
+                awardList: [],
+                projectDescriptionList: [
+                    '3Dプリンターをなんとか完成させたことで少し自信がついた丑之日プロジェクトが、次に作るものを調子に乗ってドローンに決定してしまった。',
+                    'すぐに完成すると思ったが、偽物の充電器をつかまされたり、おもったような挙動をしてくれなかったりと結局苦労することになる。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'img',
+                        url: 'https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB',
+                        img: YoutubeIcon,
+                        alt: 'YouTube Logo'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: '/Chiko',
+                thumnailImg: Chiko,
+                projectName: '第2回ツクってアソぶハッカソン',
+                awardList: ['優秀賞 受賞'],
+                projectDescriptionList: [
+                    '設定された「時から開放されるサービス」というテーマに寸分の狂いもなく答えたWEBアプリ、「ちこちゃん」を開発。',
+                    '遅刻しそうなときにランダムで遅刻理由を生成し続け、気に入ったものがあれば自動で言い訳文章を生成して待たせている相手に送信することができる。',
+                    '本当に公共交通機関の遅延を取得したり、本当に時計が壊れたりする「ガチモード」も実装予定。',
+                    'これであなたも時間から解放されるでしょう。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'a',
+                        url: '/Chiko',
+                        img: null,
+                        text: 'ちこちゃん'
+                    },
+                    {
+                        type: 'a',
+                        url: 'https://youtu.be/D04R7zEfDG0?t=3904',
+                        img: null,
+                        text: 'プロジェクトページ'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://youtu.be/w_Fb7wVX0bA?t=749',
+                thumnailImg: Kenko,
+                projectName: 'Digital Hack Day 2021',
+                awardList: ['決勝進出'],
+                projectDescriptionList: [
+                    'Yahoo!JAPAN主催で日本最大級のHackathon「Hack Day」のデジタル特化版、「Digital Hack Day 2021」に参加して開発、発表したIoT調味料置き台。',
+                    '今回のテーマは「日本のデジタル化」、「課題解決」「Hack」「Fun」の3つの観点で審査され最優秀賞が選ばれる。ルールは「プログラミングを含む、動くプロトタイプを作ること」。',
+                    '予選は9月に行われ、24時間以内に開発、発表資料を作成しなければならない。「丑之日プロジェクト with K」として3人で参加した我々は、日本人の塩分摂取過多を解決したいと考え、健康管理をしてくれるIoT調味料置き場「けんこちゃん」をKenkoWEB、KenkoAPIと共に開発し、見事73組の参加チームを勝ち抜き、10組の決勝枠に進出した。',
+                    '惜しくも最優秀賞は逃したが、生配信のコメント欄は「けんこちゃん」に魅了された視聴者で溢れた。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'a',
+                        url: 'https://youtu.be/D04R7zEfDG0?t=3904',
+                        img: null,
+                        text: '予選'
+                    },
+                    {
+                        type: 'a',
+                        url: 'https://youtu.be/w_Fb7wVX0bA?t=749',
+                        img: YoutubeIcon,
+                        text: '決勝'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://youtu.be/utKhozqVci4?t=2720',
+                thumnailImg: Satsue,
+                projectName: 'Space Apps Challenge 2021',
+                awardList: ['豊橋会場 海の男賞 受賞'],
+                projectDescriptionList: [
+                    'NASA主催の「Space Apps Challenge 2021」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というHackathon。2021年はTaroの参加は叶わなかったものの、Aniiのカリフォルニア在住時代のルームメイトKazooさんを迎え、「丑之日プロジェクト with K」として3人でそれぞれカリフォルニア、東京、大阪から愛知県豊橋会場へリモート参加。',
+                    '今年は「VIRTUAL PLANETARY EXPLORATION V2.0」というテーマを選択した。そこで我々は「月や火星を探査しに着陸したらまず何をするか」を考えた。そう、「自撮り」である。そこで、宇宙線や真空空間などの過酷な環境でも使用可能な自撮り棒「さつえちゃん」を考案し、3Dモデルを作成。NASAに提案した。',
+                    '次に月を訪れる冒険者は、月の海を背景に「さつえちゃん」で撮った写真をTwitterに投稿することだろう。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'a',
+                        url: 'https://youtu.be/utKhozqVci4?t=2720',
+                        img: null,
+                        text: '発表'
+                    },
+                    {
+                        type: 'a',
+                        url: 'https://2021.spaceappschallenge.org/challenges/statements/virtual-planetary-exploration-v20/teams/ushinohi-project-with-k/project',
+                        img: null,
+                        text: 'プロジェクトページ'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://youtu.be/lXl-brlEuRw?t=8111',
+                thumnailImg: Yafumi,
+                projectName: 'Hack Day 2021',
+                awardList: ['Hero\'s League 特別賞 受賞'],
+                projectDescriptionList: [
+                    'Yahoo!JAPAN主催で日本最大級のHackathon「Hack Day 2021」に参加して開発、発表したIoT矢文。',
+                    '「やふみちゃん」と名付けられたこのガジェットは、全く新しい独自開発のHangarrowシステムにより、迅速で強力なメッセージ送信体験を実現。強靭なHangerから放たれるArrowに結ばれた短冊は、RaspberryPiで取得した画像からCLOVA OCRで内容と宛名を解析され、GASとLINE Messaging APIの連携により正確に相手に届けられる。',
+                    'やふみちゃんに射抜かれその心を奪われなかった者はいない。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'a',
+                        url: 'https://youtu.be/lXl-brlEuRw?t=8111',
+                        img: null,
+                        text: '発表'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://2020.spaceappschallenge.org/challenges/create/virtual-planetary-exploration/teams/ushinohi-project-1/project',
+                thumnailImg: Vacume,
+                projectName: 'Space Apps Challenge 2020',
+                awardList: ['NASA Global Nominee', '豊橋会場 審査員長賞 受賞', '豊橋会場 People\'s Choice賞 受賞'],
+                projectDescriptionList: [
+                    'NASA主催の「Space Apps Challenge 2020」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というHackathon。丑之日プロジェクトはメンバー3人全員でそれぞれカリフォルニア、東京、大阪から愛知県豊橋会場へリモート参加。',
+                    '持続可能な宇宙開発を実現する探索モジュール「いちご大福(Manjuu)」と「すいとりくん(Mr. Vacume)」を考案してプロトタイプを作成、発表。',
+                    '今までに参加したハッカソンでの反省を活かし、短い制限時間内で満足のいく開発と発表ができたことにより、「審査員長賞」と「ピープルズチョイス賞」をダブル受賞。代表として世界審査に進出し、Global Nomineeとなった。',
+                    '丑之日プロジェクトが世界に進出した瞬間であった。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'a',
+                        url: 'https://youtu.be/CBSI1xkIegY?t=586',
+                        img: null,
+                        text: '発表'
+                    },
+                    {
+                        type: 'a',
+                        url: 'https://2020.spaceappschallenge.org/challenges/create/virtual-planetary-exploration/teams/ushinohi-project-1/project',
+                        img: null,
+                        text: 'プロジェクトページ'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://youtu.be/AzSkr9oo_QQ',
+                thumnailImg: Hiyori,
+                projectName: 'ぼくらの宇宙アイデアソン -DayONE-',
+                awardList: ['前田亜美賞 受賞'],
+                projectDescriptionList: [
+                    'JAXA提供の「ぼくらの宇宙アイデアソン-DayONE-」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というアイデアソン。丑之日プロジェクトはAniiとMarkの2人で大阪とカリフォルニアからリモート参加。',
+                    '「気象予測情報・実測情報を用いて洗濯物の感想時刻を予測するアプリ」を考案して発表。',
+                    'ルールを守って短時間で企画・資料発表を強行した結果、甘々な発表になってしまったが、なんとスペシャルゲストで元AKB48の前田亜美さんより「前田亜美賞」を受賞。',
+                    'AniiとMarkがまさかの受賞と芸能人との会話に大慌てする様子が全世界に生配信された。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'a',
+                        url: 'https://youtu.be/AzSkr9oo_QQ?t=123',
+                        img: null,
+                        text: '発表'
+                    },
+                    {
+                        type: 'a',
+                        url: 'https://youtu.be/AzSkr9oo_QQ?t=5264',
+                        img: null,
+                        text: '授賞式'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://covid19.spaceappschallenge.org/challenges/covid-challenges/purify-air-supply/teams/ushinohi-project/project',
+                thumnailImg: Covid19,
+                projectName: 'Space Apps COVID-19 Challenge',
+                awardList: [],
+                projectDescriptionList: [
+                    'NASA主催の「Space Apps COVID-19 Challenge」は、NASAやJAXAなど、世界中の宇宙機構のもつデータを駆使して新型コロナウイルスに関連する問題をHackしよう、というhackathon。丑之日プロジェクトはTECH-CICLE-KOBEのKazuさんと共に参加。',
+                    '紆余曲折経て、「植物の根っこに頭を突っ込んで寝る空気清浄機」を発案して提出。',
+                    '果たしてNASAやJAXAは、丑之日プロジェクトを認めてくれるのか。結果は夏に発表される。',
+                    '(2020年8月追記: 認めてもらえませんでした。)'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'a',
+                        url: 'https://covid19.spaceappschallenge.org/challenges/covid-challenges/purify-air-supply/teams/ushinohi-project/project',
+                        img: null,
+                        text: 'プロジェクトページ'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://www.youtube.com/watch?v=OYtdHdW2QCU&list=PLD6iesuOnD4PeQOzbv5h4e0JavQmN9BDU&index=1',
+                thumnailImg: Sara,
+                projectName: '水中ROV製作',
+                awardList: [],
+                projectDescriptionList: [
+                    '2019年の夏休みに初めて丑之日プロジェクトのメンバーが日本に勢揃いした際に、48時間という制限時間を設けて製作に挑戦した、水中ROV(Remotely Operated Vehicle)。  果たして時間内に完成させられたのか。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'img',
+                        url: 'https://www.youtube.com/watch?v=OYtdHdW2QCU&list=PLD6iesuOnD4PeQOzbv5h4e0JavQmN9BDU&index=1',
+                        img: YoutubeIcon,
+                        alt: 'YouTube Logo'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://youtu.be/m8MCG3uwAD8',
+                thumnailImg: Emi,
+                projectName: 'スマートミラー',
+                awardList: [],
+                projectDescriptionList: [
+                    '笑顔度を計測し、リアルタイムでその数値を鏡面に表示してくれるスマートミラー。100%を超えると自動音声が褒めてくれる。',
+                    '「えみちゃん」と名付けられたこちらのスマートミラー、もちろん木枠から鏡面まで手作りし、「NT金沢2020」に出展された。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'img',
+                        url: 'https://youtu.be/m8MCG3uwAD8',
+                        img: YoutubeIcon,
+                        alt: 'YouTube Logo'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://ushinohi.com',
+                thumnailImg: WebDesign,
+                projectName: 'Webサイト製作',
+                awardList: [],
+                projectDescriptionList: [
+                    'もっと色々な人に知ってもらう為に3Dプリンターと同時進行でこの丑之日Webサイトを作っています。',
+                    'ハードウェアだけではなくソフトウエアにも挑戦しています。'
+                ],
+                snsButtonItemDictList: []
+            },
+            {
+                thumnailUrl: 'https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A',
+                thumnailImg: LChika,
+                projectName: 'Lチカ',
+                awardList: [],
+                projectDescriptionList: [
+                    'Arduinoを使ってLEDを光らせるだけの丑之日では最短のプロジェクト。簡単すぎてプロジェクトとは言い辛いが、Arduinoの経験があまりない私たちはエラーに苦戦する。',
+                    '苦悩の末3色の信号を作り上げた。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'img',
+                        url: 'https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A',
+                        img: YoutubeIcon,
+                        alt: 'YouTube Logo'
+                    }
+                ]
+            }
+        ]
         return (
             <div>
                 <h2 className="heading-projects" data-en="Projects">プロジェクト一覧</h2>
                 <div className="project_main">
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={Shikaku} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">3Dプリンター製作</p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;丑之日プロジェクトによる最初のプロジェクト。ゼロの状態からものづくりを始めた私たちであったが、お金のない私たちは最新機器など買えるはずがなかった。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;「ならば自分で作ればいいじゃないか。」
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;そんなクレイジーな発想から始まったプロジェクト第一号。
-                            </p>
-                            <p className="project_description">
-                              YouTubeは
-                                <a href="https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    コチラ
-                                </a>
-                            </p>  
-                        </div>
-
-                    </div>
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://www.youtube.com/watch?v=s58ha8iRuhc&list=PLD6iesuOnD4P_5LHOksX2iRmYkMzcQEwT" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={Mai} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">ドローン製作</p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;3Dプリンターをなんとか完成させたことで少し自信がついた丑之日プロジェクトが、次に作るものを調子に乗ってドローンに決定してしまった。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;すぐに完成すると思ったが、偽物の充電器をつかまされたり、おもったような挙動をしてくれなかったりと結局苦労することになる。
-                            </p>
-                            <p className="project_description">
-                                YouTubeは
-                                <a href="https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    コチラ
-                                </a>
-                            </p>  
-                        </div>
-                    </div>
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://covid19.spaceappschallenge.org/challenges/covid-challenges/purify-air-supply/teams/ushinohi-project/project" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={Covid19} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">Space Apps COVID-19 Challenge</p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;NASA主催の「
-                                <a href="https://covid19.spaceappschallenge.org/" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    Space Apps COVID-19 Challenge
-                                </a>
-                                」は、NASAやJAXAなど、世界中の宇宙機構のもつデータを駆使して新型コロナウイルスに関連する問題をHackしよう、というhackathon。丑之日プロジェクトは
-                                <a href="https://www.youtube.com/channel/UCdEAOh0W3foaVeJOrx6Cr-w" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    TECH-CICLE-KOBE
-                                </a>
-                                の
-                                <a href="https://twitter.com/kzpng2" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    Kazu
-                                </a>
-                                さんと共に参加。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;紆余曲折経て、「植物の根っこに頭を突っ込んで寝る空気清浄機」を発案して提出。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;果たしてNASAやJAXAは、丑之日プロジェクトを認めてくれるのか。結果は夏に発表される。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;(2020年8月追記: 認めてもらえませんでした。)
-                            </p>
-                            <p className="project_description">
-                                Space Appsの丑之日プロジェクトのページは
-                                    <a href="https://covid19.spaceappschallenge.org/challenges/covid-challenges/purify-air-supply/teams/ushinohi-project/project" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                        コチラ
-                                    </a>
-                                動画公開をお楽しみに！
-                            </p>  
-                        </div>
-                    </div>
-
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://youtu.be/AzSkr9oo_QQ" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={Hiyori} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name project_name-dayone">ぼくらの宇宙アイデアソン -DayONE-</p>
-                            <div>
-                                <h2 className="award-ribbon"><span>前田亜美賞 受賞</span></h2>
-                            </div>
-                            <p className="project_description">&nbsp;&nbsp;
-                                JAXA提供の「
-                                <a href="https://startupgarage.connpass.com/event/182391/" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    ぼくらの宇宙アイデアソン-DayONE-
-                                </a>
-                                」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というアイデアソン。丑之日プロジェクトはAniiとMarkの2人で大阪とカリフォルニアからリモート参加。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;「気象予測情報・実測情報を用いて洗濯物の感想時刻を予測するアプリ」を考案して発表(
-                                <a href="https://youtu.be/AzSkr9oo_QQ" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    発表の様子
-                                </a>
-                                )。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;ルールを守って短時間で企画・資料発表を強行した結果、甘々な発表になってしまったが、なんとスペシャルゲストで元AKB48の
-                                <a href="https://twitter.com/ami__maeda0601" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    前田亜美さん
-                                </a>
-                                より「前田亜美賞」を受賞。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;AniiとMarkがまさかの受賞と芸能人との会話に大慌てする様子が全世界に生配信された(
-                                <a href="https://youtu.be/AzSkr9oo_QQ?t=5264" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    授賞式で大慌てする2人の様子
-                                </a>)。
-                            </p>
-
-                        </div>
-                    </div>
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://2020.spaceappschallenge.org/challenges/create/virtual-planetary-exploration/teams/ushinohi-project-1/project" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={Vacume} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">Space Apps Challenge 2020</p>
-                            <div>
-                                <h2 className="award-ribbon"><span>NASA Global Nominee</span></h2>
-                            </div>
-                            <div>
-                                <h2 className="award-ribbon"><span>豊橋会場 審査員長賞 受賞</span></h2>
-                            </div>
-                            <div>
-                                <h2 className="award-ribbon"><span>豊橋会場 People's Choice賞 受賞</span></h2>
-                            </div> 
-                            <p className="project_description">&nbsp;&nbsp;
-                                NASA主催の「
-                                <a href="https://2020.spaceappschallenge.org" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    Space Apps Challenge 2020
-                                </a>
-                                」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というHackathon。丑之日プロジェクトはメンバー3人全員でそれぞれカリフォルニア、東京、大阪から愛知県豊橋会場へリモート参加。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;持続可能な宇宙開発を実現する探索モジュール「いちご大福(Manjuu)」と「すいとりくん(Mr. Vacume)」を考案してプロトタイプを作成、発表。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;今までに参加したハッカソンでの反省を活かし、短い制限時間内で満足のいく開発と発表ができたことにより、「審査員長賞」と「ピープルズチョイス賞」をダブル受賞。代表として世界審査に進出し、Global Nomineeとなった(
-                                <a href="https://2020.spaceappschallenge.org/challenges/create/virtual-planetary-exploration/teams/ushinohi-project-1/project" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    NASAのWEBページ
-                                </a>)。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;丑之日プロジェクトが世界に進出した瞬間であった。
-                            </p>
-                            <p className="project_description">発表の様子は
-                                <a href="https://youtu.be/CBSI1xkIegY?t=586" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    コチラ
-                                </a>
-                            </p>
-
-                        </div>
-                    </div>
-
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://youtu.be/lXl-brlEuRw?t=8111" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={Yafumi} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">Hack Day 2021</p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;Yahoo!JAPAN主催で日本最大級のHackathon「
-                                    <a href="https://hackday.jp/" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                        Hack Day 2021
-                                    </a>
-                                」に参加して開発、発表したIoT矢文。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;「やふみちゃん」と名付けられたこのガジェットは、全く新しい独自開発のHangarrowシステムにより、迅速で強力なメッセージ送信体験を実現。強靭なHangerから放たれるArrowに結ばれた短冊は、RaspberryPiで取得した画像からCLOVA OCRで内容と宛名を解析され、GASとLINE Messaging APIの連携により正確に相手に届けられる。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;やふみちゃんに射抜かれその心を奪われなかった者はいない。
-                            </p>
-                            <p className="project_description">発表の様子は
-                                <a href="https://youtu.be/lXl-brlEuRw?t=8111" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    コチラ
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://youtu.be/utKhozqVci4?t=2720" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={Satsue} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">Space Apps Challenge 2021</p>
-                            <div>
-                                <h2 className="award-ribbon"><span>豊橋会場 海の男賞 受賞</span></h2>
-                            </div>
-                            <p className="project_description">
-                            &nbsp;&nbsp;
-                                NASA主催の「
-                                <a href="https://2021.spaceappschallenge.org" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    Space Apps Challenge 2021
-                                </a>
-                                」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というHackathon。2021年はTaroの参加は叶わなかったものの、Aniiのカリフォルニア在住時代のルームメイトKazooさんを迎え、「丑之日プロジェクト with K」として3人でそれぞれカリフォルニア、東京、大阪から愛知県豊橋会場へリモート参加。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;今年は「VIRTUAL PLANETARY EXPLORATION V2.0」というテーマを選択した。そこで我々は「月や火星を探査しに着陸したらまず何をするか」を考えた。そう、「自撮り」である。そこで、宇宙線や真空空間などの過酷な環境でも使用可能な自撮り棒「さつえちゃん」を考案し、3Dモデルを作成。NASAに提案した(
-                                <a href="https://2021.spaceappschallenge.org/challenges/statements/virtual-planetary-exploration-v20/teams/ushinohi-project-with-k/project" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    プロジェクトページ
-                                </a>)。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;次に月を訪れる冒険者は、月の海を背景に「さつえちゃん」で撮った写真をTwitterに投稿することだろう。
-                            </p>
-                            <p className="project_description">発表の様子は
-                                <a href="https://youtu.be/utKhozqVci4?t=2720" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    コチラ
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://youtu.be/w_Fb7wVX0bA?t=749" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={Kenko} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">Digital Hack Day 2021</p>
-                            <div>
-                                <h2 className="award-ribbon"><span>決勝進出</span></h2>
-                            </div>
-                            <p className="project_description">
-                                &nbsp;&nbsp;Yahoo!JAPAN主催で日本最大級のHackathon「Hack Day」のデジタル特化版、「
-                                    <a href="https://hackday.jp/" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                        Digital Hack Day 2021
-                                    </a>
-                                」に参加して開発、発表したIoT調味料置き台。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;今回のテーマは「日本のデジタル化」、「課題解決」「Hack」「Fun」の3つの観点で審査され最優秀賞が選ばれる。ルールは「プログラミングを含む、動くプロトタイプを作ること」。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;予選は9月に行われ、24時間以内に開発、発表資料を作成しなければならない。「丑之日プロジェクト with K」として3人で参加した我々は、日本人の塩分摂取過多を解決したいと考え、健康管理をしてくれるIoT調味料置き場「けんこちゃん」をKenkoWEB、KenkoAPIと共に開発し、見事73組の参加チームを勝ち抜き、10組の決勝枠に進出した。
-                            </p>
-                            <p className="project_description">
-                                &nbsp;&nbsp;惜しくも最優秀賞は逃したが、生配信のコメント欄は「けんこちゃん」に魅了された視聴者で溢れた。
-                            </p>
-                            <p className="project_description">予選での発表の様子は
-                                <a href="https://youtu.be/D04R7zEfDG0?t=3904" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    コチラ
-                                </a>
-                            </p>
-                            <p className="project_description">決勝での発表の様子は
-                                <a href="https://youtu.be/w_Fb7wVX0bA?t=749" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    コチラ
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://www.youtube.com/watch?v=OYtdHdW2QCU&list=PLD6iesuOnD4PeQOzbv5h4e0JavQmN9BDU&index=1" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={Sara} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">水中ROV製作</p>
-                            <p className="project_description">&nbsp;&nbsp;2019年の夏休みに初めて丑之日プロジェクトのメンバーが日本に勢揃いした際に、48時間という制限時間を設けて製作に挑戦した、水中ROV(Remotely Operated Vehicle)。&nbsp;&nbsp;果たして時間内に完成させられたのか。</p>
-                            <p className="project_description">YouTubeは
-                                <a href="https://www.youtube.com/watch?v=OYtdHdW2QCU&list=PLD6iesuOnD4PeQOzbv5h4e0JavQmN9BDU&index=1" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    コチラ
-                                </a>
-                            </p> 
-                        </div>
-                    </div>
-
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://nt-kanazawa.glideapp.io/" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={Emi} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">スマートミラー</p>
-                            <p className="project_description">&nbsp;&nbsp;笑顔度を計測し、リアルタイムでその数値を鏡面に表示してくれるスマートミラー。100%を超えると自動音声が褒めてくれます。</p>
-                            <p className="project_description">「えみちゃん」と名付けられたこちらのスマートミラー、もちろん木枠から鏡面まで手作りし、「<a href="https://nt-kanazawa.glideapp.io/" target="_blank" rel="noopener noreferrer" className="link-projects">NT金沢2020</a>」に出展しました。</p>
-                            <p className="project_description">YouTubeでの公開もお楽しみに！
-                                {/* <a href="https://www.youtube.com/watch?v=OYtdHdW2QCU&list=PLD6iesuOnD4PeQOzbv5h4e0JavQmN9BDU&index=1" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    コチラ
-                                </a> */}
-                            </p> 
-                        </div>
-                    </div>
-
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <img className="project_pic project-pic-round" src={WebDesign} alt="project's thumbnail"></img>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">Webサイト製作</p>
-                            <p className="project_description">&nbsp;&nbsp;もっと色々な人に知ってもらう為に3Dプリンターと同時進行でこの丑之日Webサイトを作っています。&nbsp;&nbsp;ハードウェアだけではなくソフトウエアにも挑戦しています。</p>
-                        </div>
-                    </div>
-
-                    <div className="project">
-                        <div className="project_content_pic">
-                            <a href="https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A" target="_blank" rel="noopener noreferrer">
-                                <img className="project_pic project-pic-round" src={LChika} alt="project's thumbnail"></img>
-                            </a>
-                        </div>
-
-                        <div className="project_content">
-                            <p className="project_name">Lチカ</p>
-                            <p className="project_description">&nbsp;&nbsp;Arduinoを使ってLEDを光らせるだけの丑之日では最短のプロジェクト。簡単すぎてプロジェクトとは言い辛いが、Arduinoの経験があまりない私たちはエラーに苦戦する。&nbsp;&nbsp;苦悩の末３色の信号を作り上げた。</p>
-                            <p className="project_description">YouTubeは
-                                <a href="https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A" target="_blank" rel="noopener noreferrer" className="link-projects">
-                                    コチラ
-                                </a>
-                            </p>
-                        </div>
-                    </div>
+                    {projectList.map((projectItem)=>{
+                        return(
+                            <Project
+                                thumnailUrl={projectItem.thumnailUrl}
+                                thumnailImg={projectItem.thumnailImg}
+                                projectName={projectItem.projectName}
+                                awardList={projectItem.awardList}
+                                projectDescriptionList={projectItem.projectDescriptionList}
+                                snsButtonItemDictList={projectItem.snsButtonItemDictList}
+                            />
+                        )
+                    })}
                 </div>
             </div>
         );

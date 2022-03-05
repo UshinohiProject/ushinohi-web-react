@@ -77,64 +77,6 @@
     color: rgb(116, 116, 116);
 }
 
-/* h2.award-ribbon {
-	position: relative;
-	margin: 30px;
-	text-align: center;
-}
-   
-h2.award-ribbon:before,
-h2.award-ribbon:after {
-	position: absolute;
-	z-index: 0;
-	bottom: -10px;
-	display: block;
-	content: '';
-	border: 1em solid #d90606;
-}
-   
-h2.award-ribbon:before {
-	left: -30px;
-	border-left-width: 15px;
-	border-left-color: transparent;
-}
-   
-h2.award-ribbon:after {
-	right: -30px;
-	border-right-width: 15px;
-	border-right-color: transparent;
-}
-   
-h2.award-ribbon span {
-	position: relative;
-	z-index: 1;
-	display: block;
-	padding: 1rem 2rem;
-	color: #fff;
-	background: #fa4141;
-}
-   
-h2.award-ribbon span:before,
-h2.award-ribbon span:after {
-	position: absolute;
-	bottom: -10px;
-	display: block;
-	width: 10px;
-	height: 10px;
-	content: '';
-	border-style: solid;
-	border-color: #b70505 transparent transparent transparent;
-}
-   
-h2.award-ribbon span:before {
-	left: 0;
-	border-width: 10px 0 0 10px;
-}
-   
-h2.award-ribbon span:after {
-	right: 0;
-	border-width: 10px 10px 0 0;
-} */
 .award-ribbon {
 	display: inline-block;
 	position: relative;
@@ -225,4 +167,13 @@ h2.award-ribbon span:after {
 	.menu-toggle {
 		margin: 0px 10px 0px auto;
     }
+
+	.award-ribbon {
+		height: 38px;/*高さ*/
+		line-height: 38px;/*高さ*/
+		font-size: 16px;/*文字サイズ*/
+	}  
+	.award-ribbon:after {
+		border-width: 19px 15px 19px 0px;
+	}	
 }
