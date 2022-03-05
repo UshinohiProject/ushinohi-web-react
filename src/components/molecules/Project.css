@@ -1,0 +1,38 @@
+.sns_icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 2.5px;
+}
+
+.sns-buttons {
+    display: flex;
+}
+.button-sns a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 6px 10px 6px 10px;
+    /* width: 50%; */
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #39c4d6;
+    border-radius: 50vh;
+    margin-right: 7px;
+  }
+  
+  .button-sns a::after{
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    transform: rotate(45deg);
+  }
+  
+  .button-sns a:hover{
+    text-decoration: none;
+    background-color: #309aa8;
+  }
