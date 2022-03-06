@@ -24,8 +24,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB',
                 thumnailImg: Shikaku,
-                projectName: '3Dプリンター製作',
-                awardList: [],
+                projectSubtitle: '自作3Dプリンター',
+                projectName: 'しかくちゃん',
+                competition: '',
+                awardDictList: [],
                 projectDescriptionList: [
                     '丑之日プロジェクトによる最初のプロジェクト。ゼロの状態からものづくりを始めた私たちであったが、お金のない私たちは最新機器など買えるはずがなかった。',
                     '「ならば自分で作ればいいじゃないか。」',
@@ -43,8 +45,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://www.youtube.com/watch?v=s58ha8iRuhc&list=PLD6iesuOnD4P_5LHOksX2iRmYkMzcQEwT',
                 thumnailImg: Mai,
-                projectName: 'ドローン製作',
-                awardList: [],
+                projectSubtitle: '自作ドローン',
+                projectName: 'まいちゃん',
+                competition: '',
+                awardDictList: [],
                 projectDescriptionList: [
                     '3Dプリンターをなんとか完成させたことで少し自信がついた丑之日プロジェクトが、次に作るものを調子に乗ってドローンに決定してしまった。',
                     'すぐに完成すると思ったが、偽物の充電器をつかまされたり、おもったような挙動をしてくれなかったりと結局苦労することになる。'
@@ -61,8 +65,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: '/Chiko',
                 thumnailImg: Chiko,
-                projectName: '第2回ツクってアソぶハッカソン',
-                awardList: ['優秀賞 受賞'],
+                projectSubtitle: '遅刻理由ジェネレーター',
+                projectName: 'ちこちゃん',
+                competition: '',
+                awardDictList: [{competitionName: '第2回ツクってアソぶハッカソン', awardTitle: '優秀賞'}],
                 projectDescriptionList: [
                     '設定された「時から開放されるサービス」というテーマに寸分の狂いもなく答えたWEBアプリ、「ちこちゃん」を開発。',
                     '遅刻しそうなときにランダムで遅刻理由を生成し続け、気に入ったものがあれば自動で言い訳文章を生成して待たせている相手に送信することができる。',
@@ -87,8 +93,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://youtu.be/w_Fb7wVX0bA?t=749',
                 thumnailImg: Kenko,
-                projectName: 'Digital Hack Day 2021',
-                awardList: ['決勝進出'],
+                projectSubtitle: 'ツンデレ健康管理システム',
+                projectName: 'けんこちゃん',
+                competition: '',
+                awardDictList: [{competitionName: 'Digital Hack Day 2021', awardTitle: 'Finalist 選出'}],
                 projectDescriptionList: [
                     'Yahoo!JAPAN主催で日本最大級のHackathon「Hack Day」のデジタル特化版、「Digital Hack Day 2021」に参加して開発、発表したIoT調味料置き台。',
                     '今回のテーマは「日本のデジタル化」、「課題解決」「Hack」「Fun」の3つの観点で審査され最優秀賞が選ばれる。ルールは「プログラミングを含む、動くプロトタイプを作ること」。',
@@ -113,8 +121,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://youtu.be/utKhozqVci4?t=2720',
                 thumnailImg: Satsue,
-                projectName: 'Space Apps Challenge 2021',
-                awardList: ['豊橋会場 海の男賞 受賞'],
+                projectSubtitle: 'ヒト用対宇宙環境仕様自撮棒',
+                projectName: 'さつえちゃん',
+                competition: '',
+                awardDictList: [{competitionName: 'Space Apps Challenge 2021', awardTitle: '豊橋会場 海の男賞'}],
                 projectDescriptionList: [
                     'NASA主催の「Space Apps Challenge 2021」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というHackathon。2021年はTaroの参加は叶わなかったものの、Aniiのカリフォルニア在住時代のルームメイトKazooさんを迎え、「丑之日プロジェクト with K」として3人でそれぞれカリフォルニア、東京、大阪から愛知県豊橋会場へリモート参加。',
                     '今年は「VIRTUAL PLANETARY EXPLORATION V2.0」というテーマを選択した。そこで我々は「月や火星を探査しに着陸したらまず何をするか」を考えた。そう、「自撮り」である。そこで、宇宙線や真空空間などの過酷な環境でも使用可能な自撮り棒「さつえちゃん」を考案し、3Dモデルを作成。NASAに提案した。',
@@ -138,8 +148,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://youtu.be/lXl-brlEuRw?t=8111',
                 thumnailImg: Yafumi,
-                projectName: 'Hack Day 2021',
-                awardList: ['Hero\'s League 特別賞 受賞'],
+                projectSubtitle: '矢文型LINE送信機',
+                projectName: 'やふみちゃん',
+                competition: 'Hack Day 2021',
+                awardDictList: [{competitionName: 'Hero\'s League 2021', awardTitle: '運営事務局特別賞'}],
                 projectDescriptionList: [
                     'Yahoo!JAPAN主催で日本最大級のHackathon「Hack Day 2021」に参加して開発、発表したIoT矢文。',
                     '「やふみちゃん」と名付けられたこのガジェットは、全く新しい独自開発のHangarrowシステムにより、迅速で強力なメッセージ送信体験を実現。強靭なHangerから放たれるArrowに結ばれた短冊は、RaspberryPiで取得した画像からCLOVA OCRで内容と宛名を解析され、GASとLINE Messaging APIの連携により正確に相手に届けられる。',
@@ -157,8 +169,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://2020.spaceappschallenge.org/challenges/create/virtual-planetary-exploration/teams/ushinohi-project-1/project',
                 thumnailImg: Vacume,
-                projectName: 'Space Apps Challenge 2020',
-                awardList: ['NASA Global Nominee', '豊橋会場 審査員長賞 受賞', '豊橋会場 People\'s Choice賞 受賞'],
+                projectSubtitle: '宇宙探索モジュール for SDGs',
+                projectName: 'いちご大福/すいとりくん',
+                competition: '',
+                awardDictList: [{competitionName: 'Space Apps Challenge 2020', awardTitle: 'NASA Global Nominee'}, {competitionName: 'Space Apps Challenge 2020', awardTitle: '豊橋会場 審査員長賞'}, {competitionName: 'Space Apps Challenge 2020', awardTitle: '豊橋会場 People\'s Choice賞'}],
                 projectDescriptionList: [
                     'NASA主催の「Space Apps Challenge 2020」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というHackathon。丑之日プロジェクトはメンバー3人全員でそれぞれカリフォルニア、東京、大阪から愛知県豊橋会場へリモート参加。',
                     '持続可能な宇宙開発を実現する探索モジュール「いちご大福(Manjuu)」と「すいとりくん(Mr. Vacume)」を考案してプロトタイプを作成、発表。',
@@ -183,8 +197,11 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://youtu.be/AzSkr9oo_QQ',
                 thumnailImg: Hiyori,
-                projectName: 'ぼくらの宇宙アイデアソン -DayONE-',
-                awardList: ['前田亜美賞 受賞'],
+                projectSubtitle: '洗濯物感想時刻予想アプリ',
+                projectName: 'ひよりちゃん',
+                // projectName: 'ぼくらの宇宙アイデアソン -DayONE-',
+                competition: '',
+                awardDictList: [{competitionName: 'ぼくらの宇宙アイデアソン -DayONE-', awardTitle: '前田亜美賞'}],
                 projectDescriptionList: [
                     'JAXA提供の「ぼくらの宇宙アイデアソン-DayONE-」は、身の回りの困りごとや気になることを、ロケット開発から人工衛星まで幅広い裾野を持つ宇宙技術でhackして解決しよう、というアイデアソン。丑之日プロジェクトはAniiとMarkの2人で大阪とカリフォルニアからリモート参加。',
                     '「気象予測情報・実測情報を用いて洗濯物の感想時刻を予測するアプリ」を考案して発表。',
@@ -209,13 +226,14 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://covid19.spaceappschallenge.org/challenges/covid-challenges/purify-air-supply/teams/ushinohi-project/project',
                 thumnailImg: Covid19,
-                projectName: 'Space Apps COVID-19 Challenge',
-                awardList: [],
+                projectSubtitle: 'インテリア × 空気清浄',
+                projectName: '安眠植木ドーム',                                                                                                                                                                                                                                                                                                                                          
+                awardDictList: [],
+                competition: 'Space Apps COVID-19 Challenge',
                 projectDescriptionList: [
                     'NASA主催の「Space Apps COVID-19 Challenge」は、NASAやJAXAなど、世界中の宇宙機構のもつデータを駆使して新型コロナウイルスに関連する問題をHackしよう、というhackathon。丑之日プロジェクトはTECH-CICLE-KOBEのKazuさんと共に参加。',
                     '紆余曲折経て、「植物の根っこに頭を突っ込んで寝る空気清浄機」を発案して提出。',
-                    '果たしてNASAやJAXAは、丑之日プロジェクトを認めてくれるのか。結果は夏に発表される。',
-                    '(2020年8月追記: 認めてもらえませんでした。)'
+                    'しかし、丑之日プロジェクトの画期的なアイデアは、NASAやJAXAには認めてもらえなかった。'
                 ],
                 snsButtonItemDictList: [
                     {
@@ -229,8 +247,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://www.youtube.com/watch?v=OYtdHdW2QCU&list=PLD6iesuOnD4PeQOzbv5h4e0JavQmN9BDU&index=1',
                 thumnailImg: Sara,
-                projectName: '水中ROV製作',
-                awardList: [],
+                projectSubtitle: '水中ROV',
+                projectName: 'さらちゃん',
+                competition: '',
+                awardDictList: [],
                 projectDescriptionList: [
                     '2019年の夏休みに初めて丑之日プロジェクトのメンバーが日本に勢揃いした際に、48時間という制限時間を設けて製作に挑戦した、水中ROV(Remotely Operated Vehicle)。  果たして時間内に完成させられたのか。'
                 ],
@@ -246,8 +266,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://youtu.be/m8MCG3uwAD8',
                 thumnailImg: Emi,
-                projectName: 'スマートミラー',
-                awardList: [],
+                projectSubtitle: 'スマートミラー',
+                projectName: 'えみちゃん',
+                competition: '',
+                awardDictList: [],
                 projectDescriptionList: [
                     '笑顔度を計測し、リアルタイムでその数値を鏡面に表示してくれるスマートミラー。100%を超えると自動音声が褒めてくれる。',
                     '「えみちゃん」と名付けられたこちらのスマートミラー、もちろん木枠から鏡面まで手作りし、「NT金沢2020」に出展された。'
@@ -264,8 +286,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://ushinohi.com',
                 thumnailImg: WebDesign,
+                projectSubtitle: '',
                 projectName: 'Webサイト製作',
-                awardList: [],
+                competition: '',
+                awardDictList: [],
                 projectDescriptionList: [
                     'もっと色々な人に知ってもらう為に3Dプリンターと同時進行でこの丑之日Webサイトを作っています。',
                     'ハードウェアだけではなくソフトウエアにも挑戦しています。'
@@ -275,8 +299,10 @@ class Projects extends React.Component {
             {
                 thumnailUrl: 'https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A',
                 thumnailImg: LChika,
+                projectSubtitle: '',
                 projectName: 'Lチカ',
-                awardList: [],
+                competition: '',
+                awardDictList: [],
                 projectDescriptionList: [
                     'Arduinoを使ってLEDを光らせるだけの丑之日では最短のプロジェクト。簡単すぎてプロジェクトとは言い辛いが、Arduinoの経験があまりない私たちはエラーに苦戦する。',
                     '苦悩の末3色の信号を作り上げた。'
@@ -300,8 +326,10 @@ class Projects extends React.Component {
                             <Project
                                 thumnailUrl={projectItem.thumnailUrl}
                                 thumnailImg={projectItem.thumnailImg}
+                                projectSubtitle={projectItem.projectSubtitle}
                                 projectName={projectItem.projectName}
-                                awardList={projectItem.awardList}
+                                competition={projectItem.competition}
+                                awardDictList={projectItem.awardDictList}
                                 projectDescriptionList={projectItem.projectDescriptionList}
                                 snsButtonItemDictList={projectItem.snsButtonItemDictList}
                             />
