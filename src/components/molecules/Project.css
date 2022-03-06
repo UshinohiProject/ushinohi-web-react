@@ -9,30 +9,71 @@
     display: flex;
 }
 .button-sns a{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 6px 10px 6px 10px;
-    /* width: 50%; */
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: #39c4d6;
-    border-radius: 50vh;
-    margin-right: 7px;
-  }
-  
-  .button-sns a::after{
-    content: '';
-    width: 5px;
-    height: 5px;
-    border-top: 2px solid #FFF;
-    border-right: 2px solid #FFF;
-    transform: rotate(45deg);
-  }
-  
-  .button-sns a:hover{
-    text-decoration: none;
-    background-color: #309aa8;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 6px 10px 6px 10px;
+  /* width: 50%; */
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #39c4d6;
+  border-radius: 50vh;
+  margin-right: 7px;
+}
+
+.button-sns a::after{
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+  transform: rotate(45deg);
+}
+
+.button-sns a:hover{
+  text-decoration: none;
+  background-color: #309aa8;
+}
+
+h2.competition-ribbon {
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	margin: 5px auto;
+	height: 22px;/*高さ*/
+	line-height: 22px;/*高さ*/
+	font-size: 12px;/*文字サイズ*/
+    color: #fff;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #9be15d 0%, #00e3ae 100%);
+    background-image: linear-gradient(to right, #9be15d 0%, #00e3ae 100%);
+}
+.awarded-competition-name{
+    font-size: 8px;
+}
+.project-subtitle {
+	font-size: 20px;
+	padding: 0px 10px;
+	margin: 0;
+    color: gray;
+}
+
+/*タブレット用*/
+@media(max-width: 800px) {
+    .project-subtitle {
+        text-align: center;
+        margin: 0;
+    }
+}
+/*スマホ用*/
+@media(max-width: 600px) {
+    .awarded-competition-name{
+        font-size:7px;
+    }
+    .project-subtitle {
+        text-align: center;
+        font-size: 15px;
+        margin: 0;
+    }
+}

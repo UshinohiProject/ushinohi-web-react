@@ -7,8 +7,17 @@ class Project extends React.Component {
     //   super(props);
     // };
     render() {
+        let projectSubtitle
         let snsButtons
+        let competition
         let awards
+        if (this.props.projectSubtitle !== '') {
+            projectSubtitle = (
+                <p className="project-subtitle">
+                    {this.props.projectSubtitle}
+                </p>
+            )
+        }
         if (this.props.snsButtonItemDictList.length !== 0) {
             snsButtons = (
                 <div className="sns-buttons">
@@ -35,13 +44,20 @@ class Project extends React.Component {
                 </div>
             )
         }
-        if (this.props.awardList.length !== 0) {
+        if (this.props.competition !== '') {
+            competition = (
+                <div>
+                    <h2 className="competition-ribbon"><span>{this.props.competition}&nbsp;参加作品</span></h2>
+                </div>
+            )
+        }
+        if (this.props.awardDictList.length !== 0) {
             awards = (
                 <div>
-                    {this.props.awardList.map((awardItem)=>{
+                    {this.props.awardDictList.map((awardDict)=>{
                         return(
                             <div>
-                                <h2 className="award-ribbon"><span>{awardItem}</span></h2>
+                                <h2 className="award-ribbon"><span className='awarded-competition-name'>{awardDict.competitionName}<br/></span>{awardDict.awardTitle}&nbsp;受賞</h2>
                             </div>
                         )
                     })}
@@ -56,7 +72,9 @@ class Project extends React.Component {
                     </a>
                 </div>
                 <div className="project_content">
+                    {projectSubtitle}
                     <p className="project_name">{this.props.projectName}</p>
+                    {competition}
                     {awards}
                     {this.props.projectDescriptionList.map((projectDescription)=>{
                         return(
