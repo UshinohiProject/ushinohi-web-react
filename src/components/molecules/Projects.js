@@ -78,7 +78,7 @@ class Projects extends React.Component {
                     },
                     {
                         type: 'a',
-                        url: 'https://youtu.be/D04R7zEfDG0?t=3904',
+                        url: 'https://protopedia.net/prototype/2924',
                         img: null,
                         text: 'プロジェクトページ'
                     }
@@ -100,13 +100,13 @@ class Projects extends React.Component {
                         type: 'a',
                         url: 'https://youtu.be/D04R7zEfDG0?t=3904',
                         img: null,
-                        text: '予選'
+                        text: '予選の様子'
                     },
                     {
                         type: 'a',
                         url: 'https://youtu.be/w_Fb7wVX0bA?t=749',
                         img: YoutubeIcon,
-                        text: '決勝'
+                        text: '決勝の様子'
                     }
                 ]
             },
@@ -125,7 +125,7 @@ class Projects extends React.Component {
                         type: 'a',
                         url: 'https://youtu.be/utKhozqVci4?t=2720',
                         img: null,
-                        text: '発表'
+                        text: '発表の様子'
                     },
                     {
                         type: 'a',
@@ -150,7 +150,7 @@ class Projects extends React.Component {
                         type: 'a',
                         url: 'https://youtu.be/lXl-brlEuRw?t=8111',
                         img: null,
-                        text: '発表'
+                        text: '発表の様子'
                     }
                 ]
             },
@@ -170,7 +170,7 @@ class Projects extends React.Component {
                         type: 'a',
                         url: 'https://youtu.be/CBSI1xkIegY?t=586',
                         img: null,
-                        text: '発表'
+                        text: '発表の様子'
                     },
                     {
                         type: 'a',
@@ -196,13 +196,13 @@ class Projects extends React.Component {
                         type: 'a',
                         url: 'https://youtu.be/AzSkr9oo_QQ?t=123',
                         img: null,
-                        text: '発表'
+                        text: '発表の様子'
                     },
                     {
                         type: 'a',
                         url: 'https://youtu.be/AzSkr9oo_QQ?t=5264',
                         img: null,
-                        text: '授賞式'
+                        text: '授賞式の様子'
                     }
                 ]
             },
