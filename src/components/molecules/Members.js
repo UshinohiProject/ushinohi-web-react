@@ -102,7 +102,7 @@ class Members extends React.Component {
                 			<a href="https://twitter.com/lilac_hagikazu" target="_blank" rel="noopener noreferrer">
                                 <img className="profile_icon" src={TwitterIcom} alt="Twitter Icon"></img>
                             </a>
-                			<a href="https://www.facebook.com/lego.kazu" target="_blank" rel="noopener noreferrer">
+                			<a href="https://www.facebook.com/markhagiwara0331" target="_blank" rel="noopener noreferrer">
                                 <img className="profile_icon" src={FacebookIcon} alt="Facebook Icon"></img>
                             </a>
                 			<a href="https://www.instagram.com/hagikazu331/" target="_blank" rel="noopener noreferrer">
@@ -116,7 +116,7 @@ class Members extends React.Component {
                             </a>
                 		</div>
                 		<p className="profile-details">
-                            &nbsp;&nbsp;ニューヨーク生まれ横浜市育ち。高校からはカナダで語学留学をしており、今はアメリカ人としてカリフォルニアのシリコンバレーの大学生。７歳からLEGOロボットで遊んでいて全国大会出場の経験あり。
+                            &nbsp;&nbsp;ニューヨーク生まれ横浜市育ち。高校からはカナダで語学留学をしており、今はアメリカ人としてカリフォルニアのシリコンバレーの大学生。7歳からLEGOロボットで遊んでいて全国大会出場の経験あり。
                         </p>
                         <p className="profile-details">
                             &nbsp;&nbsp;趣味は野球観戦で根からのカープファン。
