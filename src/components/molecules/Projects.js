@@ -3,6 +3,8 @@ import Project from './Project'
 import './Projects.css';
 
 import Shikaku from './img/projects/shikaku.jpg'
+import Nezulatoon from './img/projects/nezulatoon.png'
+import Chiri from './img/projects/chiri.png'
 import Chiko from './img/projects/chiko.png'
 import Mai from './img/projects/mai.jpg'
 import Covid19 from './img/projects/covid_19.png'
@@ -16,6 +18,7 @@ import Emi from './img/projects/emi.png'
 import WebDesign from './img/projects/web_design.jpg'
 import LChika from './img/projects/l_chika.jpg'
 import YoutubeIcon from './img/projects/youtube_icon.png'
+import LineIcon from './img/projects/line_icon.png'
 
 class Projects extends React.Component {
     render() {
@@ -59,6 +62,61 @@ class Projects extends React.Component {
                         url: 'https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB',
                         img: YoutubeIcon,
                         alt: 'YouTube Logo'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://protopedia.net/prototype/3046',
+                thumnailImg: Nezulatoon,
+                projectSubtitle: '商店街対抗！色塗り地図アプリ',
+                projectName: '根津latoon',
+                competition: '',
+                awardDictList: [{competitionName: 'bitconnect 2021', awardTitle: '優秀賞'}],
+                projectDescriptionList: [
+                    '東京都文京区にある商店街連合会のひとつである「根津」の商店街でフィールドワークを行なって課題を見つけ、「Hometown」というテーマに基づいて開発されたプロダクト。',
+                    'スマホで「推し商店街」を選択して味方や相手の商店街で「Shoot」ボタンを押しまくるシンプルなゲーム。インクがなくなったら味方商店街で買い物をして補充。相手商店街で買い物をすれば強い武器が手に入る。',
+                    '「実は普段の集客には困っていないが、資金難で年に1度しか開けないお祭りのような、商店街全体が盛り上がる何かが欲しい」という商店街の声から生まれた「根津latoon」は、課題へのアプローチや独創性、完成度に加え、その実現性の高さが評価されて東京会場での優勝を勝ち取った。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'img',
+                        url: 'https://youtu.be/hOYtb0X3jZk',
+                        img: YoutubeIcon,
+                        alt: 'YouTube Logo'
+                    },
+                    {
+                        type: 'a',
+                        url: 'https://protopedia.net/prototype/3046',
+                        img: null,
+                        text: 'プロジェクトページ'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: '/Chiri',
+                thumnailImg: Chiri,
+                projectSubtitle: 'ゴミの日通知アプリ',
+                projectName: 'ちりちゃん',
+                competition: '',
+                awardDictList: [{competitionName: 'インスタントハッカソン@鹿児島 v2022.5', awardTitle: '優勝'}],
+                projectDescriptionList: [
+                    '明日が「何のゴミの日なのか」を毎晩9時に通知してくれるLINE botを開発。',
+                    '郵便番号を「ちりちゃん」にLINEで教えるだけで登録は完了、面倒なユーザー登録などは一切不要。',
+                    '現在はAniiとTaroの出身地である鹿児島市にのみ対応中。',
+                    '出勤直前に「んんん来週のゴミの日に捨てよう！！」と諦める朝は今日で最後にしよう。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'img',
+                        url: 'https://youtu.be/trTFIMsVm50',
+                        img: YoutubeIcon,
+                        alt: 'YouTube Logo'
+                    },
+                    {
+                        type: 'img',
+                        url: 'https://lin.ee/bXAJ7mq',
+                        img: LineIcon,
+                        alt: 'Line Logo'
                     }
                 ]
             },
