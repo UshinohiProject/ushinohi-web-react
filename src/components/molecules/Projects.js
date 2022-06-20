@@ -93,7 +93,7 @@ class Projects extends React.Component {
                 ]
             },
             {
-                thumnailUrl: '/Chiri',
+                thumnailUrl: 'https://lin.ee/bXAJ7mq',
                 thumnailImg: Chiri,
                 projectSubtitle: 'ゴミの日通知アプリ',
                 projectName: 'ちりちゃん',
