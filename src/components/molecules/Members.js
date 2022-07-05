@@ -82,10 +82,10 @@ class Members extends React.Component {
                             </a>
                 		</div>
                 		<p className="profile-details">
-                            &nbsp;&nbsp;鹿児島出身。工業大学在学中に参加したロボコンでリーダーを務め、所属チームの活躍に貢献。大学卒業後はエネルギー産業関連企業に従事していたが、夢を追って転職。
+                            &nbsp;&nbsp;鹿児島出身。工業大学ではエンジニアリングを学び、大学卒業後はエネルギー産業関連企業に従事していたが、夢を追って転職。
                         </p>
                         <p className="profile-details">
-                            &nbsp;&nbsp;現在はロボット開発に携わる会社で奮闘中の会社員。AniiとMarkに無理やりヤクルトファンにさせられた。
+                            &nbsp;&nbsp;現在は九州の会社でエンジニアとして奮闘中の会社員。AniiとMarkに無理やりヤクルトファンにさせられた。
                         </p>
                 	</div>
                 </div>
@@ -116,7 +116,7 @@ class Members extends React.Component {
                             </a>
                 		</div>
                 		<p className="profile-details">
-                            &nbsp;&nbsp;ニューヨーク生まれ横浜市育ち。高校からはカナダで語学留学をしており、今はアメリカ人としてカリフォルニアのシリコンバレーの大学生。7歳からLEGOロボットで遊んでいて全国大会出場の経験あり。
+                            &nbsp;&nbsp;ニューヨーク生まれ横浜市育ち。高校からはカナダで語学留学をしており、今はアメリカ人としてNASAでエンジニアとして働きながらカリフォルニアの大学に通っている。7歳からLEGOロボットで遊んでいて全国大会出場の経験あり。
                         </p>
                         <p className="profile-details">
                             &nbsp;&nbsp;趣味は野球観戦で根からのカープファン。
