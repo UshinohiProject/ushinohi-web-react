@@ -3,6 +3,7 @@ import Project from './Project'
 import './Projects.css';
 
 import Shikaku from './img/projects/shikaku.jpg'
+import Kaban from './img/projects/kaban.jpg'
 import Nezulatoon from './img/projects/nezulatoon.png'
 import Chiri from './img/projects/chiri.png'
 import Chiko from './img/projects/chiko.png'
@@ -62,6 +63,34 @@ class Projects extends React.Component {
                         url: 'https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB',
                         img: YoutubeIcon,
                         alt: 'YouTube Logo'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://protopedia.net/prototype/3188',
+                thumnailImg: Kaban,
+                projectSubtitle: 'リュック型延長コード',
+                projectName: 'かばんちゃん',
+                competition: '',
+                awardDictList: [{competitionName: '第3回ツクってアソぶハッカソン', awardTitle: '優秀賞'}],
+                projectDescriptionList: [
+                    '設定されたテーマは『「いや違う。そうじゃない。」とツッコまれたくなるモノまたはサービスをツクる』。',
+                    'リュックにコンセントプラグを合計9個設置することで、部屋の中で場所にとらわれずに電気を使える生活を実現するプロダクトを開発。',
+                    'これでもう、部屋の隅で充電が切れそうなスマホを充電しながらタイムラインに齧り付く日々とはお別れである。',
+                    '全く役に立たないものを作ろうとしたが、あまりにも便利すぎて普段めちゃめちゃ使っている。(※第二種電気工事士であるAniiが安全に最大限配慮して開発しました。)'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'img',
+                        url: 'https://youtu.be/G_Ej3MDUMuk',
+                        img: YoutubeIcon,
+                        alt: 'YouTube Logo'
+                    },
+                    {
+                        type: 'a',
+                        url: 'https://protopedia.net/prototype/3188',
+                        img: null,
+                        text: 'プロジェクトページ'
                     }
                 ]
             },
