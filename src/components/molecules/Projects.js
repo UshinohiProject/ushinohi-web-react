@@ -3,6 +3,7 @@ import Project from './Project'
 import './Projects.css';
 
 import Shikaku from './img/projects/shikaku.jpg'
+import Toreru from './img/projects/toreru.jpg'
 import Koriyama from './img/projects/koriyama.jpg'
 import Kaban from './img/projects/kaban.jpg'
 import Nezulatoon from './img/projects/nezulatoon.png'
@@ -64,6 +65,33 @@ class Projects extends React.Component {
                         url: 'https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB',
                         img: YoutubeIcon,
                         alt: 'YouTube Logo'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://youtu.be/7by-7JRb6yk?t=6165',
+                thumnailImg: Toreru,
+                projectSubtitle: '撮影補助ARアプリ',
+                projectName: 'とれるちゃん',
+                competition: '',
+                awardDictList: [{competitionName: 'Digital Hack Day 2022', awardTitle: 'Happy Hacking賞'}],
+                projectDescriptionList: [
+                    '「大好きな作品の聖地巡礼できたは良いものの、あの名シーンの画角でうまく写真が撮れない…」',
+                    'そんな悩みを解決してくれるアプリを開発。聖地を訪れてアプリを起動、カメラで景色を映すとカメラアイコンが現れ、その画角から撮れば簡単・正確にあの名シーンを再現できる。おのしん氏がソフトウェア開発のヘルプとして参加してくれた。',
+                    'さらにデザイナーになるき氏を迎え、完全オリジナルアニメを制作。そのシーンを再現するデモを行った。激戦を制し、視聴者・参加者投票で1位を獲得。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'a',
+                        url: 'https://youtu.be/7by-7JRb6yk?t=6165',
+                        img: null,
+                        text: '発表の様子'
+                    },
+                    {
+                        type: 'a',
+                        url: 'https://twitter.com/fjnaruo28',
+                        img: null,
+                        text: 'なるき氏のTwitter'
                     }
                 ]
             },
