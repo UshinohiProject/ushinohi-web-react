@@ -3,6 +3,7 @@ import Project from './Project'
 import './Projects.css';
 
 import Shikaku from './img/projects/shikaku.jpg'
+import Zao from './img/projects/zao.jpg'
 import Toreru from './img/projects/toreru.jpg'
 import Koriyama from './img/projects/koriyama.jpg'
 import Kaban from './img/projects/kaban.jpg'
@@ -65,6 +66,27 @@ class Projects extends React.Component {
                         url: 'https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB',
                         img: YoutubeIcon,
                         alt: 'YouTube Logo'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://2022.spaceappschallenge.org/challenges/2022-challenges/mars-habitat/teams/ushinohi-project-3/project',
+                thumnailImg: Zao,
+                projectSubtitle: '対火星環境仕様万能モータ',
+                projectName: 'ざおちゃん',
+                competition: '',
+                awardDictList: [{competitionName: 'Space Apps Challenge 2022', awardTitle: '豊橋会場 スタートアップ賞'}],
+                projectDescriptionList: [
+                    '火星の基地に不時着し、持ってきた道具や探査ローバのタイヤが破損したことを想定し、最悪の状況を打開するプロダクトを備え付けの3Dプリンタで出力するための3Dモデルを制作。',
+                    '物干し竿の接続部から着想し、モータ、バッテリを密閉したまま様々なアタッチメントを装着できる「ZAO機構」を開発。',
+                    'また、小さい3Dプリンタで大きなタイヤの部品を出力できる仕組みも開発。メンバー3人で徹夜でCADに取り組んだ。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'a',
+                        url: 'https://2022.spaceappschallenge.org/challenges/2022-challenges/mars-habitat/teams/ushinohi-project-3/project',
+                        img: null,
+                        text: 'プロジェクトページ'
                     }
                 ]
             },
