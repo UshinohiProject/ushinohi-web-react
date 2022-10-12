@@ -3,6 +3,7 @@ import Project from './Project'
 import './Projects.css';
 
 import Shikaku from './img/projects/shikaku.jpg'
+import Koriyama from './img/projects/koriyama.jpg'
 import Kaban from './img/projects/kaban.jpg'
 import Nezulatoon from './img/projects/nezulatoon.png'
 import Chiri from './img/projects/chiri.png'
@@ -63,6 +64,28 @@ class Projects extends React.Component {
                         url: 'https://www.youtube.com/playlist?list=PLD6iesuOnD4N5p1YKejy6whGA2BegcaRB',
                         img: YoutubeIcon,
                         alt: 'YouTube Logo'
+                    }
+                ]
+            },
+            {
+                thumnailUrl: 'https://www.minyu-net.com/news/news/FM20220905-726796.php',
+                thumnailImg: Koriyama,
+                projectSubtitle: '郡山市の魅力を再発見',
+                projectName: 'クイズ郡山',
+                competition: '',
+                awardDictList: [{competitionName: '「一本の水路」ハッカソン', awardTitle: '最高賞'}],
+                projectDescriptionList: [
+                    '福島県郡山市をお米や果物などの一大産出地へと変貌させた一本の水路、「安積疏水」のように現代の郡山の課題を解決することが目的のハッカソンで、',
+                    '地元の方々に徹底的なヒアリングをさせていただいた結果、郡山の課題は「若い人材の流出」であることに気づいた丑之日プロジェクト。',
+                    'そこで、生まれ育った町を離れてひとり暮らしを始めると「地元民にしか分からないあるある」に触れるとどうしようもなく帰省したくなる現象に着目したWEBアプリ、「クイズ郡山」を開発。',
+                    '郡山市民が郡山市民にしか分からないクイズを投稿し、郡山出身で東京で学ぶ若者に「郡山のためにスキルを活かしたい」と思ってもらうキッカケを作る。最高賞の「マイクロソフト賞」を受賞。'
+                ],
+                snsButtonItemDictList: [
+                    {
+                        type: 'a',
+                        url: 'https://www.minyu-net.com/news/news/FM20220905-726796.php',
+                        img: null,
+                        text: 'ニュース記事'
                     }
                 ]
             },
