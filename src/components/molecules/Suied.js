@@ -6,7 +6,7 @@ import './Suied.css';
 export default class Suied extends Component {
     render() {
         return (
-            <div>
+            <div className='sui-center'>
                 <div class="example">
                     <img src={River} alt='a river' className='river'/>
                 </div>

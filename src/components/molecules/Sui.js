@@ -29,7 +29,7 @@ class Sui extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='sui-center'>
                 <p>何で喧嘩しちゃったの？</p>
                 <br />
                 <input type='text' value={this.state.text} onChange={this.handleChange}></input>
