@@ -1,0 +1,28 @@
+.heading-privacy-policy {
+	position: relative;
+	padding-top: 50px;
+	font-size: 26px;
+	text-align: center;
+}
+
+.heading-privacy-policy span {
+	position: relative;
+	z-index: 2;
+}
+
+.heading-privacy-policy::before {
+	content: attr(data-en);
+	position: absolute;
+	top: -8px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: rgba(48, 100, 255, 0.2);
+	font-size: 80px;
+	font-style: italic;
+}
+
+.policy {
+	width: 80%;
+	max-width: 700px;
+	margin: 0px auto;
+}

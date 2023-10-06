@@ -11,6 +11,9 @@ import Projects from './components/molecules/Projects'
 import Business from './components/molecules/Business'
 import DigitalHackDay2021 from './components/molecules/DigitalHackDay2021'
 import Chiko from './components/molecules/Chiko'
+import Sui from './components/molecules/Sui'
+import Suied from './components/molecules/Suied'
+import PrivacyPolicy from './components/molecules/PrivacyPolicy'
 
 function App() {
   return (
@@ -25,6 +28,9 @@ function App() {
           <Route path='/Business' component={Business}/>
           <Route path='/DigitalHackDay2021' component={DigitalHackDay2021}/>
           <Route path='/Chiko' component={Chiko}/>
+          <Route path='/Sui' component={Sui}/>
+          <Route path='/Suied' component={Suied}/>
+          <Route path='/PrivacyPolicy' component={PrivacyPolicy}/>
         </div>
         <Footer />
       </Router>
