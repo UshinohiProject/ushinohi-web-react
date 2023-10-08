@@ -14,6 +14,7 @@ import Chiko from './components/molecules/Chiko'
 import Sui from './components/molecules/Sui'
 import Suied from './components/molecules/Suied'
 import PrivacyPolicy from './components/molecules/PrivacyPolicy'
+import Shiori from './components/molecules/Shiori'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path='/Sui' component={Sui}/>
           <Route path='/Suied' component={Suied}/>
           <Route path='/PrivacyPolicy' component={PrivacyPolicy}/>
+          <Route path='/Shiori' component={Shiori}/>
         </div>
         <Footer />
       </Router>
