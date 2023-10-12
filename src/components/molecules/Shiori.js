@@ -6,10 +6,16 @@ import Venus from './img/shiori/venus.png'
 class Shiori extends React.Component {
     render() {
         return (
-            <div className="safe-instructions">
+            <div className="shiori">
                 <h2 className="heading-safety" data-en="Safety">安全のしおり</h2>
-                	<img className="safe-instruction" src={Mars} alt="Mars Safe Instruction"></img>
-                	<img className="safe-instruction" src={Venus} alt="Venus Safe Instruction"></img>
+                <div className="safe-instructions">
+                    <a href={Mars} target="_blank" rel="noopener noreferrer">
+                        <img className="safe-instruction" src={Mars} alt="Mars Safe Instruction" />
+                    </a>
+                    <a href={Venus} target="_blank" rel="noopener noreferrer">
+                        <img className="safe-instruction" src={Venus} alt="Venus Safe Instruction" />
+                    </a>
+                </div>
             </div>
         );
     }
