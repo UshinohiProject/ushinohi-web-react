@@ -21,12 +21,26 @@
 	font-style: italic;
 }
 
-.safe-instruction {
-    width: 100%;
+.safe-instructions a {
+    display: block; /* この行を追加して<a>タグをブロック要素として表示 */
+    width: 100%;    /* この行も追加 */
 }
 
-.safe-instructions {
-	max-width: 700px;
+.safe-instruction {
+    width: 100%;
+    display: block; /* imgがブロック要素として表示されるように */
+}
+
+.shiori {
+	max-width: 900px;
 	width: 100%;
-	margin: 0px auto;
+	margin: 0 auto;
+}
+
+/* 以下のメディアクエリを追加 */
+@media (min-width: 834px) {
+    .safe-instructions a {
+        display: inline-block; /* PCでは横並びにするためにインラインブロックとして表示 */
+        width: 50%;            /* 2つの画像を横並びに表示するために50%の幅を設定 */
+    }
 }
