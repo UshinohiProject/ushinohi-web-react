@@ -38,6 +38,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-async-generator-functions": "^7.20.7"
+    "@babel/plugin-proposal-async-generator-functions": "^7.20.7",
+    "@babel/plugin-proposal-dynamic-import": "^7.18.6"
   }
 }
