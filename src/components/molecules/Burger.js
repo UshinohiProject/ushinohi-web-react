@@ -35,6 +35,7 @@ class Burger extends React.Component {
                 <Link onClick={() => this.closeMenu()} to="/Members">Members</Link>
                 {/* <a id="Projects" className="menu-item" href="/Projects">Contact</a> */}
                 <Link onClick={() => this.closeMenu()} to="/Projects">Projects</Link>
+                <Link onClick={() => this.closeMenu()} to="/Business">Business</Link>
                 <a onClick={() => this.closeMenu()} id="YouTube" className="menu-item" href="https://www.youtube.com/channel/UCvTSx-2FzWu-x_wDwKjXN5A">YouTube</a>
                 <a onClick={() => this.closeMenu()} id="Twitter" className="menu-item" href="https://twitter.com/UshinohiProject">Twitter</a>
             </Menu>

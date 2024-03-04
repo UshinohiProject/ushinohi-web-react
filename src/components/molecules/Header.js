@@ -29,6 +29,9 @@ class Header extends React.Component {
                             <Link to="/Projects">Projects</Link>
                         </li>
                         <li>
+                            <Link to="/Business">Business</Link>
+                        </li>
+                        <li>
                             <Link to="/PrivacyPolicy">PrivacyPolicy</Link>
                         </li>
                         {/* <li>
