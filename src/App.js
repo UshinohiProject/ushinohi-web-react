@@ -15,6 +15,7 @@ import Sui from './components/molecules/Sui'
 import Suied from './components/molecules/Suied'
 import PrivacyPolicy from './components/molecules/PrivacyPolicy'
 import Shiori from './components/molecules/Shiori'
+import IsumCertificate from './components/molecules/IsumCertificate'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path='/Members' component={Members}/>
           <Route path='/Projects' component={Projects}/>
           <Route path='/Business' component={Business}/>
+          <Route path='/IsumCertificate' component={IsumCertificate}/>
           <Route path='/DigitalHackDay2021' component={DigitalHackDay2021}/>
           <Route path='/Chiko' component={Chiko}/>
           <Route path='/Sui' component={Sui}/>

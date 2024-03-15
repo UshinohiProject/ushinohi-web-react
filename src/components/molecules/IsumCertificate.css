@@ -1,0 +1,21 @@
+/* .isum-certificate-box {
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.isum-certificate {
+    max-height: calc(100vh - 74px - 51px);
+} */
+.isum-certificate-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 74px - 51px); /* 画面の高さに合わせる */
+  }
+  
+  .isum-certificate-box img {
+    max-width: 100%; /* 画像がコンテナを超えないようにする */
+    height: auto; /* 画像のアスペクト比を維持 */
+    max-height: calc(100vh - 74px - 51px);
+  }
+  

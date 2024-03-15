@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import './Business.css';
 
 import MovieEditing from './img/business/movie_ediging.jpg'
 import WebDevelop from './img/business/web_develop.jpg'
 import Voice from './img/business/voice.jpg'
+
 
 class Business extends React.Component {
     render() {
@@ -35,7 +37,7 @@ class Business extends React.Component {
                                 &nbsp;&nbsp;お見積もりをご希望の方はお気軽にご連絡ください!
                             </p>
                             <p className="business_description">
-                              iSUM事業者登録申請中
+                              ISUM登録事業者 (<Link className="link-isum-certificate" to="/IsumCertificate">第10011458号</Link>)
                             </p>  
                         </div>
 
