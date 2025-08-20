@@ -22,7 +22,7 @@ class Members extends React.Component {
                 		<img className="profile_pic profile_pic_anii" src={AniiIcon} alt="profile icon"></img>
                 	</div>
                 	<div className="profile_content">
-                		<p className="profile_name">Anii (雪村・魁(さき)=スカイウォーカー)</p>
+                		<p className="profile_name">Anii</p>
                 		<div className="members_sns">
                 			<a href="mailto:anii@ushinohi.com" target="_blank" rel="noopener noreferrer">
                                 <img className="profile_icon" src={EMailIcon} alt="e-mail address"></img>
