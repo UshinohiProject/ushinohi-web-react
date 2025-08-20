@@ -2,7 +2,6 @@ import React from 'react';
 import './Members.css';
 
 import AniiIcon from './img/members/anii_prof.jpg'
-import TaroIcon from './img/members/taro_prof.jpg'
 import MarkIcon from './img/members/mark_prof.jpg'
 
 import EMailIcon from './img/members/e_mail.jpg'
@@ -52,40 +51,6 @@ class Members extends React.Component {
                         </p>
                         <p className="profile-details">
                             &nbsp;&nbsp;シリコンバレーのスタートアップ企業でソフトウェアの仕事をしたのち、日本に帰国。現在某IT企業で会社員として働きながらカリフォルニアの大学でComputer Science専攻の学生もしている。阪神ファン。
-                        </p>
-                	</div>
-                </div>
-                <div className="profile">
-                	<div className="profile_content profile_content_pic">
-                		<img className="profile_pic profile_pic_taro" src={TaroIcon} alt="profile icon"></img>
-                	</div>
-                	<div className="profile_content">
-                		<p className="profile_name">Taro (タロウ)</p>
-                		<div className="members_sns">
-                			<a href="mailto:kotaro@ushinohi.com" target="_blank" rel="noopener noreferrer">
-                                <img className="profile_icon" src={EMailIcon} alt="e-mail address"></img>
-                            </a>
-                			<a href="https://twitter.com/TaRo_SiBe" target="_blank" rel="noopener noreferrer">
-                                <img className="profile_icon" src={TwitterIcom} alt="Twitter Icon"></img>
-                            </a>
-                			<a href="https://www.facebook.com/steamdrrr" target="_blank" rel="noopener noreferrer">
-                                <img className="profile_icon" src={FacebookIcon} alt="Facebook Icon"></img>
-                            </a>
-                			<a href="https://www.instagram.com/taro7445/" target="_blank" rel="noopener noreferrer">
-                                <img className="profile_icon" src={InstagramIcon} alt="Instagram Icon"></img>
-                            </a>
-                			<a href="https://www.linkedin.com/in/kotaro-ishizuka-57803b1a2/" target="_blank" rel="noopener noreferrer">
-                                <img className="profile_icon" src={LinkedInIcon} alt="LinkedIn Icon"></img>
-                            </a>
-                			<a href="https://ushinohi.com/taro" target="_blank" rel="noopener noreferrer">
-                                <img className="profile_icon" src={TaroIcon} alt="Taro Icon"></img>
-                            </a>
-                		</div>
-                		<p className="profile-details">
-                            &nbsp;&nbsp;鹿児島出身。工業大学ではエンジニアリングを学び、大学卒業後はエネルギー産業関連企業に従事していたが、夢を追って転職。
-                        </p>
-                        <p className="profile-details">
-                            &nbsp;&nbsp;現在は九州の会社でエンジニアとして奮闘中の会社員。AniiとMarkに無理やりヤクルトファンにさせられた。
                         </p>
                 	</div>
                 </div>
