@@ -21,10 +21,10 @@ class Project extends React.Component {
         if (this.props.snsButtonItemDictList.length !== 0) {
             snsButtons = (
                 <div className="sns-buttons">
-                    {this.props.snsButtonItemDictList.map((snsButtonItemDict)=>{
+                    {this.props.snsButtonItemDictList.map((snsButtonItemDict, index)=>{
                         if (snsButtonItemDict['type'] === 'img') {
                             return(
-                                <div>
+                                <div key={index}>
                                     <a href={snsButtonItemDict['url']} target="_blank" rel="noopener noreferrer">
                                         <img className="sns_icon" src={snsButtonItemDict['img']} alt={snsButtonItemDict['alt']}></img>
                                     </a>
@@ -32,7 +32,7 @@ class Project extends React.Component {
                             )
                         } else if (snsButtonItemDict['type'] === 'a') {
                             return(
-                                <div className='button-sns'>
+                                <div key={index} className='button-sns'>
                                     <a href={snsButtonItemDict['url']} target="_blank" rel="noopener noreferrer">
                                         {snsButtonItemDict['text']}
                                     </a>
@@ -54,9 +54,9 @@ class Project extends React.Component {
         if (this.props.awardDictList.length !== 0) {
             awards = (
                 <div>
-                    {this.props.awardDictList.map((awardDict)=>{
+                    {this.props.awardDictList.map((awardDict, index)=>{
                         return(
-                            <div>
+                            <div key={index}>
                                 <h2 className="award-ribbon"><span className='awarded-competition-name'>{awardDict.competitionName}<br/></span>{awardDict.awardTitle}&nbsp;受賞</h2>
                             </div>
                         )
@@ -76,9 +76,9 @@ class Project extends React.Component {
                     <p className="project_name">{this.props.projectName}</p>
                     {competition}
                     {awards}
-                    {this.props.projectDescriptionList.map((projectDescription)=>{
+                    {this.props.projectDescriptionList.map((projectDescription, index)=>{
                         return(
-                            <p className="project_description">&nbsp;&nbsp;{projectDescription}</p>
+                            <p key={index} className="project_description">&nbsp;&nbsp;{projectDescription}</p>
                         )
                     })}
                     {snsButtons}
