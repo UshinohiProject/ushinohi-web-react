@@ -3,9 +3,12 @@ import './IsumCertificate.css';
 
 const IsumCertificate = () => {
     useEffect(() => {
+        const SCRIPT_SRC = 'https://isum.or.jp/js/isumCertificate.js';
+        if (document.querySelector(`script[src="${SCRIPT_SRC}"]`)) return;
+
         const script = document.createElement('script');
         script.type = 'text/javascript';
-        script.src = 'https://isum.or.jp/js/isumCertificate.js';
+        script.src = SCRIPT_SRC;
         document.body.appendChild(script);
 
         return () => {
