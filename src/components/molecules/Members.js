@@ -6,10 +6,8 @@ import MarkIcon from './img/members/mark_prof.jpg'
 
 import EMailIcon from './img/members/e_mail.jpg'
 import TwitterIcom from './img/members/twitter_prof.jpg'
-import FacebookIcon from './img/members/facebook.jpg'
 import InstagramIcon from './img/members/instagram.jpg'
 import YoutubeIcon from './img/members/youtube.jpg'
-import LinkedInIcon from './img/members/linkedin.jpg'
 import NoteIcon from './img/members/note_logo.jpg'
 
 class Members extends React.Component {
@@ -30,17 +28,11 @@ class Members extends React.Component {
                 			<a href="https://twitter.com/YSSkywalker" target="_blank" rel="noopener noreferrer">
                                 <img className="profile_icon" src={TwitterIcom} alt="Twitter Icon"></img>
                             </a>
-                			<a href="https://www.facebook.com/yukimurasakiskywalker" target="_blank" rel="noopener noreferrer">
-                                <img className="profile_icon" src={FacebookIcon} alt="Facebook Icon"></img>
-                            </a>
                 			<a href="https://www.instagram.com/ysskywalker/" target="_blank" rel="noopener noreferrer">
                                 <img className="profile_icon" src={InstagramIcon} alt="Instagram Icon"></img>
                             </a>
                 			<a href="https://www.youtube.com/channel/UCNIXXbCX91p3pnZ-UsYA2oQ" target="_blank" rel="noopener noreferrer">
                                 <img className="profile_icon" src={YoutubeIcon} alt="YouTube Icon"></img>
-                            </a>
-                			<a href="https://www.linkedin.com/in/%E7%A5%90%E4%B8%80%E9%83%8E-%E5%B1%B1%E5%8F%A3-619759150/" target="_blank" rel="noopener noreferrer">
-                                <img className="profile_icon" src={LinkedInIcon} alt="LinkedIn Icon"></img>
                             </a>
                 			<a href="https://note.com/ysskywalker" target="_blank" rel="noopener noreferrer">
                                 <img className="profile_icon" src={NoteIcon} alt="Note Icon"></img>
@@ -67,14 +59,8 @@ class Members extends React.Component {
                 			<a href="https://twitter.com/lilac_hagikazu" target="_blank" rel="noopener noreferrer">
                                 <img className="profile_icon" src={TwitterIcom} alt="Twitter Icon"></img>
                             </a>
-                			<a href="https://www.facebook.com/markhagiwara0331" target="_blank" rel="noopener noreferrer">
-                                <img className="profile_icon" src={FacebookIcon} alt="Facebook Icon"></img>
-                            </a>
                 			<a href="https://www.instagram.com/hagikazu331/" target="_blank" rel="noopener noreferrer">
                                 <img className="profile_icon" src={InstagramIcon} alt="Instagram Icon"></img>
-                            </a>
-                			<a href="https://www.linkedin.com/in/mark-hagiwara-834302183/" target="_blank" rel="noopener noreferrer">
-                                <img className="profile_icon" src={LinkedInIcon} alt="LinkedIn Icon"></img>
                             </a>
                 			<a href="https://ushinohi.com/mark" target="_blank" rel="noopener noreferrer">
                                 <img className="profile_icon" src={MarkIcon} alt="Mark Icon"></img>
