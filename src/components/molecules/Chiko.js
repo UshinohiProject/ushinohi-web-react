@@ -13,7 +13,7 @@ class Chiko extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className='chiko-page'>
                 {/* <h2>遅刻Generator</h2> */}
                 <p className='late-title'>遅刻の理由</p>
                 <p className='late-reason'>{this.state.reason}</p>
