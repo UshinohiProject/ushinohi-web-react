@@ -1,3 +1,10 @@
+.chiko-page {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
 p.late-title {
     text-align: center;
     font-family: 'Yuji Syuku', serif;
@@ -134,31 +141,31 @@ button.btn--radius {
     p.late-title {
         text-align: center;
         font-family: 'Yuji Syuku', serif;
-        font-size: 8em;
-        margin: 0.4em 0;
+        font-size: 3em;
+        margin: 0.3em 0;
     }
     p.late-reason {
         text-align: center;
         font-family: 'Yuji Syuku', serif;
-        font-size: 20em;
+        font-size: 5em;
         margin: 0.2em 0;
         line-height: 1em
     }
     p.late-genre {
         text-align: center;
         font-family: 'Yuji Syuku', serif;
-        font-size: 8em;
-        margin: 0.4em 0;
+        font-size: 2.5em;
+        margin: 0.3em 0;
     }
     p.late-level {
         text-align: center;
         font-family: 'Yuji Syuku', serif;
-        font-size: 4em;
-        margin: 0.4em 0;
+        font-size: 1.5em;
+        margin: 0.3em 0;
     }
     img.share-sns {
-        height: 5rem;
-        margin: 0 0.4em;
+        height: 3rem;
+        margin: 0 0.3em;
     }
 
     /* generate button from here */
@@ -181,12 +188,12 @@ button.btn {
 
 .btn,
 button.btn {
-  font-size: 6rem;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 3;
+  line-height: 1.5;
   position: relative;
   display: inline-block;
-  padding: 2rem 8rem;
+  padding: 1.2rem 5rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -197,28 +204,28 @@ button.btn {
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   color: #212529;
-  border-radius: 1rem;
+  border-radius: 0.75rem;
 }
 
 button.btn--red.btn--cubic {
-  border-bottom: 10px solid #9f000c;
+  border-bottom: 7px solid #9f000c;
 }
-  
+
 button.btn--red.btn--cubic:hover {
-  margin-top: 6px;
-  border-bottom: 4px solid #9f000c;
+  margin-top: 4px;
+  border-bottom: 3px solid #9f000c;
 }
 
 button.btn--radius {
-  border-radius: 200vh;
+  border-radius: 150vh;
 }
 
 .fa-position-right {
   position: absolute;
-  top: calc(50% - 1em);
-  right: 2rem;
+  top: calc(50% - .7em);
+  right: 1.5rem;
 }
 .btn--red, button.btn--red, button.btn--red {
     color: #fff;
@@ -231,31 +238,31 @@ button.btn--radius {
     p.late-title {
         text-align: center;
         font-family: 'Yuji Syuku', serif;
-        font-size: 8em;
-        margin: 0.4em 0;
+        font-size: 2em;
+        margin: 0.3em 0;
     }
     p.late-reason {
         text-align: center;
         font-family: 'Yuji Syuku', serif;
-        font-size: 15em;
+        font-size: 3.2em;
         margin: 0.2em 0;
         line-height: 1em
     }
     p.late-genre {
         text-align: center;
         font-family: 'Yuji Syuku', serif;
-        font-size: 6em;
-        margin: 0.4em 0;
+        font-size: 1.8em;
+        margin: 0.3em 0;
     }
     p.late-level {
         text-align: center;
         font-family: 'Yuji Syuku', serif;
-        font-size: 4em;
-        margin: 0.4em 0;
+        font-size: 1.3em;
+        margin: 0.3em 0;
     }
     img.share-sns {
-        height: 8rem;
-        margin: 0 0.4em;
+        height: 2.5rem;
+        margin: 0 0.3em;
     }
 
     /* generate button from here */
@@ -278,12 +285,12 @@ button.btn {
 
 .btn,
 button.btn {
-  font-size: 4rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  line-height: 3;
+  line-height: 1.5;
   position: relative;
   display: inline-block;
-  padding: 2rem 8rem;
+  padding: 1rem 3rem;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -294,28 +301,28 @@ button.btn {
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   color: #212529;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 button.btn--red.btn--cubic {
-  border-bottom: 10px solid #9f000c;
+  border-bottom: 5px solid #9f000c;
 }
-  
+
 button.btn--red.btn--cubic:hover {
-  margin-top: 6px;
-  border-bottom: 4px solid #9f000c;
+  margin-top: 3px;
+  border-bottom: 2px solid #9f000c;
 }
 
 button.btn--radius {
-  border-radius: 200vh;
+  border-radius: 100vh;
 }
 
 .fa-position-right {
   position: absolute;
-  top: calc(50% - 1em);
-  right: 2rem;
+  top: calc(50% - .5em);
+  right: 1rem;
 }
 .btn--red, button.btn--red, button.btn--red {
     color: #fff;
